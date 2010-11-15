@@ -5,3 +5,12 @@ main.py: Does IO and should (??) contain the primary scheduling algorithm when f
 Class.py: Contains class definitions for types that will be class and PrerequisiteNode objects
 PrerequisiteTree: Contains class(es) that will define graph that determines when classes can
 be taken
+
+
+As for the copyright stuff:
+- We use pyparsing by Paul T. McGuire for parsing pieces of the input files
+
+- The rest of the software is co-developed/designed by M. Fonda, M. Hughes, ad R. Cai of 
+the UW Seattle Math Dept. Since this is public class project the software is of course 
+provided free of charge without any guarantee of fitness for a particular purpose. This
+software, in other words is provided "AS IS".
