@@ -29,9 +29,6 @@ def get_options():
     # store the file handles in the files dictionary
     if (options.summer is not None and os.path.isfile(options.summer)):
         files['summer'] = open(options.summer) #default open mode is read only
-    else:
-        print("Summer classes were not specified")
-        return 1
     if (options.fall is not None and os.path.isfile(options.fall)):
         files['fall'] = open(options.fall)
     else:
@@ -54,6 +51,29 @@ def get_options():
         return 1
     return files
 
+def parse_normal_form(reqs):
+    """Parse normal form takes a string in pseudo propositional logic that is
+    in disjunctive normal form and converts it into a list of sets.
+    
+    Arguments:
+        regs: A string of the form specified in the README file for class
+            prerequisites
+    Returns: 
+        A list of sets
+    Example:
+        A | (B & C) will become [ (A), (B, C) ]
+    """
+    final = []
+    conjunctions = reqs.split("|")
+    for conjunction in conjunctions:
+        curr_set = None
+        if conjunction.strip().startswith('('):
+            curr_set = frozenset(map(lambda x: x.strip(),conjunction.strip()[1:-1].split('&')))
+        else:
+            curr_set = frozenset([conjunction.strip()])
+        final.append(curr_set)   
+    return final
+
 def main():
     """Main application entry point, args should be parsed by 
     optparser
@@ -63,9 +83,8 @@ def main():
     # get options
     files = get_options()
     # check if we had an error
-    if (files == 1) {
+    if files == 1:
         return 1
-    }
     # if no error continue executing
     
     
