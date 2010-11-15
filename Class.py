@@ -91,7 +91,7 @@ class PrerequisiteNode(Class):
         """Same arguments as Class initializer, plus two more arguments
         
         Prereq: A list of sets of prerequsites. Logically the list should be in
-        conjunction of disjunctions form. For the class to be available at least
+        disjunction of conjunctions form. For the class to be available at least
         one entire set of prereq from the set must be satisfied.
         
         Points_to: A tuple that contains a list of PrerequisiteNodes that this
