@@ -1,0 +1,7 @@
+This is the class scheduling program.
+
+Currently it is split into three parts:
+main.py: Does IO and should (??) contain the primary scheduling algorithm when finished
+Class.py: Contains class definitions for types that will be class and PrerequisiteNode objects
+PrerequisiteTree: Contains class(es) that will define graph that determines when classes can
+be taken
