@@ -109,15 +109,23 @@ def main():
                 # subscript madness: cls indexes into the dictionary by the class name key,
                 # then we index into the first item in the list, and then finally index into
                 # the offered tuple by quarter i
-                all_classes[cls][0][i] = True
+                all_classes[cls.strip().upper()][0][i] = True
             except KeyError:
                 offered = [False,False,False,False]
                 offered[i] = True
-                all_classes[cls] = [offered, int(credits)]
+                all_classes[cls.strip().upper()] = [offered, int(credits)]
             else:
                  
                 all_classes[cls][0][i] = True
         i += 1
+    # now we have the set of all classes offered we go over the prereq file for
+    # information of class prerequisites
+    class_prereqs = {}
+    for line in files['prereqs']:
+        (cls, reqs) = line.split(':')
+        class_prereqs[cls.strip().upper()] = parse_normal_form(reqs)
+    # do datetime thing here
+    print(str(class_prereqs))
     
     
 if __name__ == "__main__":
