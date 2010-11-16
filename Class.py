@@ -12,8 +12,10 @@ class Class:
     def __init__(self, time, credits, offered, name):
         """Initializer for the class object
         Arguments:
-            Time: A list of datetime objects that define what times during the
-            week a class is offered
+            Time: A dictionary of lists of datetime objects that define what times during the
+            week a class is offered. The dictionary is indexed by quarter, 'winter','spring',...
+            The lists are formed from start and end times and should therefore be some multiple
+            of two items long.
             Credits: An integer defining the number of credits
             Offered: A 4 item boolean tuple, either true or false in order of
             quarters offered F,W,Sp,S
