@@ -9,7 +9,7 @@ class Class:
     attributes should be enough to uniquely id a class
     """
     
-    def __init__(self, time, credits, offered, name):
+    def __init__(self, time, credits, offered, name, section):
         """Initializer for the class object
         Arguments:
             Time: A list of datetime objects that define what times during the
@@ -18,6 +18,8 @@ class Class:
             Offered: A 4 item boolean tuple, either true or false in order of
             quarters offered F,W,Sp,S
             Name: A string, the name of the class
+            Section: A string letter code for the section of the class, this doesn't
+            need to be specified
         Returns: A Class object
         """
         
@@ -25,6 +27,7 @@ class Class:
         self.credits = credits
         self.offered = offered
         self.name = name
+        self.section = section
     
     # below we define string operations
     def __str__(self):
@@ -47,7 +50,7 @@ class Class:
         
         if isinstance(other,Class):
             return (self.name != other.name or self.time != other.time or 
-                self.offered != other.offered)
+                self.offered != other.offered or self.section != other.section)
         else:
             return True
     
@@ -78,7 +81,7 @@ class Class:
         for qtr in self.offered:
             if qtr:
                 hash_val = c_mult(hash_val, 19)
-        hash_val += hash(self.name)
+        hash_val += hash(self.name) + hash(self.section)
         return hash_val
         
 class PrerequisiteNode(Class):
