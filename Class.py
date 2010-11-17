@@ -9,19 +9,16 @@ class Class:
     attributes should be enough to uniquely id a class
     """
     
-    def __init__(self, time, credits, offered, name, section):
+    def __init__(self, time, credits, offered, name, section, sln):
         """Initializer for the class object
         Arguments:
-            Time: A dictionary of lists of datetime objects that define what times during the
-            week a class is offered. The dictionary is indexed by quarter, 'winter','spring',...
-            The lists are formed from start and end times and should therefore be some multiple
-            of two items long.
+            Time: A three tuple (t_begin,t_end)
             Credits: An integer defining the number of credits
-            Offered: A 4 item boolean tuple, either true or false in order of
-            quarters offered F,W,Sp,S
+            Offered: An integer 0-3: 0 = fall,1=winter,2=spring,3=summer
             Name: A string, the name of the class
             Section: A string letter code for the section of the class, this doesn't
             need to be specified
+            Sln: schedule identifier number
         Returns: A Class object
         """
         
@@ -30,6 +27,7 @@ class Class:
         self.offered = offered
         self.name = name
         self.section = section
+        self.sln = sln
     
     # below we define string operations
     def __str__(self):
@@ -78,7 +76,7 @@ class Class:
         c_mult = lambda a,b: eval(hex((a * b) & 0xFFFFFFFF)[:-1])
         
         hash_val = hash(self.name)
-        for d in self.time:
+        for d in self.time.values():
             hash_val += hash(d)
         for qtr in self.offered:
             if qtr:
