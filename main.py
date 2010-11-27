@@ -104,6 +104,7 @@ def main():
     if 'summer' in files.keys():
         quarters.append('summer')
     quarter_classes = {} # qtr->[list of classes]
+    base_courses = set()
     i = 0
     for qtr in quarters:
         # read file in using cvs reader
@@ -117,12 +118,14 @@ def main():
             t_end = datetime.time(row['time_end'][0:2],row['time_end'][2:4])
             result = re.match("(M)(T)(W)(Th)(F)",row['days'])
             days = set(result.groups)
+            if (
             c = Class.Class((t_begin,t_end),int(row['credits']),i,row['name'],
                 row['section'],int(row['sln']))
             try:
                 quarter_classes[qtr].append(c)
             except Exception:
                 quarter_classes[qtr] = [c]
+    #
     # i = 0 
     # for qtr in quarters:
         # for line in files[qtr]:

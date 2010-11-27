@@ -33,18 +33,26 @@ class QtrSolver():
         Returns: An (hopefully) optimal set of classes to take
         """
         # 1st determine the classes we can take
-        qtr_classes = self._determine_avail_classes()
+        qtr_classes = self._determine_avail_classes(qtr_index)
+        self.build_c
 
 
 
-    def _determine_avail_classes(self):
+    def _determine_avail_classes(self,qtr_index):
         """Determines the available classes based on the qtr_index, the current
         classes available, and the classes taken
 
         Returns a set of classes that can be taken
         """
-        for rule in self.prereqs:
-            
+        result = set()
+        for k,v in self.prereqs.items:
+            for rule in v:
+                if (rule <= self.current_classes and k in
+                    self.available_classes[qtr_index]):
+                    break
+                    result.add(k)
+
+        return result
 
 
     def courses(self, class_set):
@@ -53,4 +61,4 @@ class QtrSolver():
         if self.current_classes is None:
             self.current_classes = class_set
         else:
-            self.current_classes.update(class_set)            
+            self.current_classes.update(class_set) 
