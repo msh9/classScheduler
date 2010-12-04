@@ -27,6 +27,7 @@
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{epsfig}
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 \usepackage{amstext}
@@ -168,6 +169,14 @@ prerequisites. For example, {\it MATH327} requires both $MATH126$ and $MATH300$,
 or just $MATH136$. Let this graph be called $G_{prereq}$. Due to these
 complications, a $G_{prereq}$ alone will not suffice.
 
+\begin{figure} [ht]
+    \begin{center}
+        \includegraphics[scale=0.4]{prereq_logic_example}
+    \end{center}
+    \caption{Evaluation of a rule}
+    \label{logic_ex}
+\end{figure}
+
 To solve this issues, we introduce a set of rules for each course. Each rule is
 a boolean expression represented in propositional logic in disjunctive normal
 form. For example, the rule associated with $MATH327$ is $$ \text{{\it MATH327:
@@ -178,7 +187,12 @@ Furthermore, to determine if a given student is eligible to register for
 a course offering, we can evaluate the rule for the course, where each clause
 takes on the value true if a student has already taken the course, and false if
 he or she hasn't. If the rule evaluates to true, then the student is eligible to
-take the course; otherwise, the student is not.
+take the course; otherwise, the student is note. For example, consider
+figure~\ref{logic_ex}, here a student has previously taken courses $MATH126$ and
+$MATH300$. Since $MATH126$ and $MATH300$ have been taken, then those literals in
+the rule for $MATH327$ evaluate to true and therefore the entire rule is true.
+Since the entire rule is true, the student can take $MATH327$ when next
+available.
 
 \subsection{Initial Model and Tractability} With a static schedule it would be
 possible to deterministically plan an entire schedule from start to finish,
@@ -284,6 +298,14 @@ that are identical except one is offered once a year, and the other is offered
 three times a year, we want to take the course only offered once a year, as we
 won't have the opportunity to take it for another entire year.
 
+\begin{figure} [ht]
+    \begin{center}
+        \includegraphics[scale=0.35]{more_prereq_tree}
+    \end{center}
+    \caption{A Prerequisite DAG}
+    \label{prereq}
+\end{figure}
+
 We these considerations in mind, we begin to develop our heuristic function. In
 order to define our heuristic function, we must first define some auxiliary
 functions on course offering.  \begin{itemize} \item Let $TimeFromNow(c, q)$ be
@@ -293,10 +315,8 @@ of this function is $\{0, 1, 2, 3\}$.  \item Let $Quarters(c)$ be the number of
 quarters per year a given course, $c$, is offered. As there are four quarters,
 the range of this function is $\{0, 1, 2, 3, 4\}$.  \item Let $Dependents(c)$ be
 the number of course that either directly or indirectly require a given course,
-$c$. In our final draft, we will present a diagram illustrating this value more
-clearly.  \end{itemize}
-
-\includegraphics[scale=0.5]{more_prereq_tree}
+$c$. In Figure~\ref{prereq}, $Dependents(MATH125)$ = 6 while
+$Dependents(MATH307)$ = 1 \end{itemize}
 
 With these functions defined, we can now define our heuristic function:
 \begin{equation} Value(c) = 1 + \alpha * Dependents(c) + \beta * TimeFromNow(c,
