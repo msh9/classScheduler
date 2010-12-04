@@ -78,7 +78,7 @@ amount of time possible.}
 \section{Introduction} \subsection{Background} Registration can be a stressful
 time for every student at the University of Washington. Without deliberate
 planning, students must decide which classes to take on a quarterly basis. The
-decision process involves considering many factors, such as quarterly class
+decision process involves considering factors such as quarterly class
 offerings, the amount of credits, the prerequisites of the classes, time
 conflicts, and how the choices in current quarter affect future quarters. The
 University of Washington registration system provides a schedule finder;
@@ -259,7 +259,7 @@ given student to register for, and we must now pick the most optimal ones. There
 a several ways we could view the problem of determining which classes to take
 each quarter. We will initially encode the class selection as a binary integer
 programming problem in spirit of the methods presented by Dinkel et al
-\cite{dinel:scheduling}. and Pritsker et al \cite{prisker:informs}. At this
+\cite{dinkel:scheduling}. and Pritsker et al \cite{prisker:informs}. At this
 point we have the set $L$ containing possible classes we that we need to take.
 
 \subsubsection{Heuristic Value Function} In order to determine which classes
@@ -296,7 +296,7 @@ the number of course that either directly or indirectly require a given course,
 $c$. In our final draft, we will present a diagram illustrating this value more
 clearly.  \end{itemize}
 
-\includegraphics{more_prereq_tree}
+\includegraphics[scale=0.5]{more_prereq_tree}
 
 With these functions defined, we can now define our heuristic function:
 \begin{equation} Value(c) = 1 + \alpha * Dependents(c) + \beta * TimeFromNow(c,
@@ -386,5 +386,5 @@ by running computer simulations of schedule picking. We will computationally
 examine what parameters in our heuristic function produce the most desirable
 schedules.
 
-\bibliography{references}{} \bibliographystyle{plain} \end{document}
+\bibliography{paper_references}{} \bibliographystyle{plain} \end{document}
  
