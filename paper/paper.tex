@@ -81,30 +81,29 @@ offerings, the amount of credits, the prerequisites of the classes, time
 conflicts, and how the choices in current quarter affect future quarters. The
 University of Washington registration system provides a schedule finder;
 however, it only takes into account time conflicts, and does not give advice on
-how to pick the most ideal schedule. The situation described above makes it
-difficult for students advising faculties. A student's graduation time may be
-extended because of his or her inability to take a class that has limited
-offerings during that particular year, for reasons such as not satisfying the
-prerequisites of the class. The advising office’s workload can also be increased
-due to the changing plans and majors of students and their need for repeated
-advising. 
+how to pick the most ideal schedule. 
+
+A student's graduation time may be extended because of his or her inability to
+take a class that has limited offerings during that particular year.
+Additionally, the advising office’s workload can also be increased due to the
+changing plans and majors of students and their need for repeated advising. 
 
 \subsection{Goal} Our goal is to alleviate the problematic situation by creating
 a mathematical algorithm that accomplishes the following goal: given a student's
 current state and preferred credit hours per quarter, produce a class schedule
 that minimizes the number of quarters until graduation, eliminates time
-conflicts, and eliminates prerequisite conflicts. 
+conflicts, and eliminates prerequisite conflicts.
 
 \subsection{Importance} The implementation of the algorithm as part of the
 school’s registration system will benefit the students by enabling them to map
-out their quarterly class schedules until graduation, and to preview their ideal
-schedule, the length of time until graduation, and the credit hours per quarter.
-This will lead to better decision making for what majors to pursue, and given
-the student's current state, which schedules are the most ideal in terms of
-saving time and resources. This will also help students save money, as they will
-be in school for fewer quarters. The university also benefits from the reduced
-labor cost and increased efficiency of the advising offices.
-
+out their quarterly class schedules until graduation. Students will be able to
+preview their ideal schedule, the length of time until graduation, and the
+credit hours per quarter.  This will lead to better decision making for what
+majors to pursue, and given the student's current state, which schedules are the
+most ideal in terms of saving time and resources. This will also help students
+save money, as they will be in school for fewer quarters. The university also
+benefits from the reduced labor cost and increased efficiency of the advising
+offices.
 
 \section{Problem Description} We focus on the classes offered within the Math
 department, although our algorithm and model can be easily extended to include
@@ -113,13 +112,10 @@ over departments.
 Every quarter the Math department offers a subset of classes from all of the
 available courses, each class is offered during a certain subset of available
 time periods. Since there are far more classes than time periods during the
-regular five-day week there are inevitably conflicts between courses that
-a student wants to take and courses that a student needs to take. Or worse,
-there are conflicts between two or more courses that a students needs to
-graduate. To graduate with a B.S. in Mathematics there are certain classes that
-are required and then there are elective requirements too. Additionally
-a student may wish to take some classes that are not required.  Adding to the
-problem is many classes cannot just be taken whenever they are available;
+regular five-day week there are inevitably time conflicts between courses that
+a student could take. To graduate with a B.S. in Mathematics there are certain
+classes that are required and then there are elective requirements too. Adding
+to the problem is many classes cannot just be taken whenever they are available;
 instead, certain prerequisites must be satisfied first. In the case of math
 courses, there can be multiple different prerequisite sets that satisfy the
 requirements for a class.
@@ -146,33 +142,30 @@ Each course offering additionally has associated with it the time of the day at
 which the course meets, the quarter it is being offered, and the section number
 of the offering.  \end{itemize}
 
-We must now also define some variables used throughout our paper.
-\begin{itemize} \item Let $S$ be the set of courses required to be taken in
-order to graduate. $S$ can be thought of as our goal state, and can also contain
-elective courses a student simply wishes to take.  \item Let $T$ be the set of
-courses a given student has already completed. If no courses have been taken,
-this set may be empty.  \item Let $U$ be the set of all courses a student could
-possibly ever take.  \item Let $P$ be a set of rules specifying course
-prerequisites.  \item Let $l$ be the maximum number of credits a student wishes
-to take during any given quarter.  \item Let $O$ be the set of all 50-minute
-time blocks between 8:30am and 7:30pm from Monday through Friday.  \end{itemize}
+Additionally: \begin{itemize} \item Let $S$ be the set of courses required to be
+taken in order to graduate. $S$ can be thought of as our goal state, and can
+also contain elective courses a student simply wishes to take.  \item Let $T$ be
+the set of courses a given student has already completed. If no courses have
+been taken, this set may be empty.  \item Let $U$ be the set of all courses
+a student could possibly ever take.  \item Let $P$ be a set of rules specifying
+course prerequisites.  \item Let $l$ be the maximum number of credits a student
+wishes to take during any given quarter.  \item Let $O$ be the set of all
+50-minute time blocks between 8:30am and 7:30pm from Monday through Friday.
+\end{itemize}
 
 \subsection{Representing Prerequisites} Initially, we hoped to represent course
-prerequisites using a directed acyclic graph, in which each node was a course,
-and edges between nodes $i$ and $j$ if and only if $i$ was a prerequisite for
-$j$.  This method was used by Pritsker et. al. and Xiangtong et. al. However, it
-does not work in our model, and courses can have a complicated set of multiple
-prerequisites. For example, {\it MATH327} requires both $MATH126$ and $MATH300$,
-or just $MATH136$. Let this graph be called $G_{prereq}$. Due to these
-complications, a $G_{prereq}$ alone will not suffice.
+prerequisites using a directed acyclic graph. Each node was a course, and edges
+existed between nodes $i$ and $j$ if and only if $i$ was a prerequisite for $j$.
+However, it does not work in our model, and courses can have a complicated set
+of multiple prerequisites.  For example, {\it MATH327} requires both $MATH126$
+and $MATH300$, or just $MATH136$. 
 
-\begin{figure} [ht]
-    \begin{center}
-        \includegraphics[scale=0.4]{prereq_logic_example}
-    \end{center}
-    \caption{Evaluation of a rule}
-    \label{logic_ex}
-\end{figure}
+\begin{figure} [ht] 
+\begin{center} 
+\includegraphics[scale=0.4]{prereq_logic_example} 
+\end{center} 
+\caption{Evaluation of a rule} 
+\label{logic_ex} \end{figure}
 
 To solve this issues, we introduce a set of rules for each course. Each rule is
 a boolean expression represented in propositional logic in disjunctive normal
@@ -194,12 +187,12 @@ available.
 \subsection{Initial Model and Tractability} With a static schedule it would be
 possible to deterministically plan an entire schedule from start to finish,
 unfortunately we have neither the computational resources nor the luxury of
-a static schedule. From the student’s point of view, although there are some
-classes that are offered every quarter, senior electives are not, and sometimes
-it cannot be predicted more than one quarter in advance when a senior elective
-will be offered. Even given perfect information, where we know the possible
-class schedules for every quarter we face another problem; finding the best
-possible schedule reduces to enumerating possible class schedules for every
+a static schedule to do plan. From the student’s point of view, although there
+are some classes that are offered every quarter, senior electives are not, and
+sometimes it cannot be predicted more than one quarter in advance when a senior
+elective will be offered. Even given perfect information, where we know the
+possible class schedules for every quarter we face another problem; finding the
+best possible schedule reduces to enumerating possible class schedules for every
 quarter until the graduation requirements are satisfied. Given that we cannot
 predict in advance the conflicts between classes, we cannot even determine the
 branching factor of the enumeration tree nor its depth. Since we can only
@@ -210,7 +203,7 @@ Instead of trying to solve the complete problem we chose to use the rolling
 horizon approach used by Xiangtong et al \cite{xiangton:informs} when scheduling
 classes for airlines. Our problem already has a well defined horizon
 demarcation, the quarters. For the rest of the paper we focus on developing
-methods for attempting to optimally pick classes in each quarter separately.
+methods to optimally pick classes in each quarter separately.
 
 \section{Rolling Horizons Approach} We adapt a rolling horizons approach which
 uses a heuristic to pick the best possible schedule for any given quarter, given
@@ -226,7 +219,7 @@ offering and selecting specific course offerings.
 classes we can currently take and then build conflict graphs for classes based
 on the times they are offered. In this section, we let $L$ be the initially
 empty set of course offerings a given student is eligible to take in the given
-quarter, $q$. \\
+quarter, $q$.
 
 \subsubsection{Procedure} We present the procedure for populating the set $L$ as
 follows: \begin{enumerate} \item For each rule in $P$ we iterate over each
@@ -262,16 +255,17 @@ five days of the week, and therefore we have 45 time slots to check in our
 conflict graph, again yielding $O(Cn)$ runtime.
 
 Since we are dealing with asymptotic running time we will drop the constant
-terms and combining all results yields an overall run time of $O(n)$.
+terms and combining all results yields an overall runtime of $O(n)$.
 
 \subsection{Selection of Quarterly Classes} \subsubsection{Selection Procedure}
 At this point in time, we know which course offerings are available for the
-given student to register for, and we must now pick the most optimal ones. There
-a several ways we could view the problem of determining which classes to take
-each quarter. We will initially encode the class selection as a binary integer
-programming problem in spirit of the methods presented by Dinkel et al
-\cite{dinkel:scheduling}. and Pritsker et al \cite{prisker:informs}. At this
-point we have the set $L$ containing possible classes we that we need to take.
+given student to register for, and we must now pick the most optimal ones.  We
+present two ways of approaching quarterly class choice. We will initially encode
+the class selection as a binary integer programming problem in spirit of the
+methods presented by Dinkel et al \cite{dinkel:scheduling}. and Pritsker et al
+\cite{prisker:informs}. A second approach developed by Yamada et al
+\cite{yamada:heuristic} and Pferschy et al \cite{pferschy:kcg} is presented for
+dealing with very large class choices where binary LP would be difficult solve.
 
 \subsubsection{Heuristic Value Function} In order to determine which classes
 should be picked in a given schedule, we use a heuristic function which assigns
@@ -279,12 +273,12 @@ each course offering a value. The higher the value of this function for a given
 course offering is, the more likely the given course offering will be placed in
 the schedule. Recalling that our goal is to minimize the total number of
 quarters taken (and implicitly, maximize the total number of courses taken per
-quarter), our heuristic function should clearly give higher value to course
-offerings that will help us achieve this goal. One component to the heuristic
-function then must be the number of dependent courses a given course offering
-has. If a course satisfies many prerequisites, then we know that there are many
-courses that we cannot complete without it, so we want our heuristic function to
-favor it. 
+quarter). Our heuristic function should give higher value to course offerings
+that will help us achieve this goal. One component to the heuristic function
+then must be the number of dependent courses a given course offering has. If
+a course satisfies many prerequisites, then we know that there are many courses
+that we cannot complete without it, so we want our heuristic function to favor
+it. 
 
 Additionally, we know that not every course is offered every quarter. If
 a course is not offered until the following year, we could potentially add an
@@ -323,21 +317,21 @@ numbers, giving a weight to piece of the heuristic. The scalars are determined
 experimentally.
 
 \subsubsection{Formulation as Binary Integer Program} We can now formulate our
-problem as a binary integer linear programming problem. Before stating the
-linear program, we must first define some variables used in it: \\
-\begin{itemize} \item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take
-} X_i\\ 0 \text{ if we don't take } X_i \end{array} \right. $ \item For all $t
-\in O$, we let $t = 1$.  \item Let $m = \|L\|$.  \end{itemize} We now state our
-problem as follows:\\ Maximize: $$ \text{Value of Quarter} = \sum_{i=1}^m
-Value(c_i) * X_i $$ Subject To: $$ \sum_{i=1}^m Weight(c_i) * X_i \leq l, $$ $$
-\forall t_j \in O, \sum_{i=1}^m t_j * X_i \leq 1, $$ $$ X_i \in \{0, 1\} $$ The
-linear program can be interpreted as follows: \begin{itemize} \item The value of
-a quarter is the total number of courses taken that quarter.  \item In each
-quarter, the total number of credits cannot exceed the specified limit.  \item
-Only one course can be taken in one particular time slot \item A course can only
-be taken or not taken. In other words, decision variables are binary.  \item
-Each non-zero decision variable in the optimal solution represents a class we
-will take.  \end{itemize}
+problem as a binary linear programming problem. Before stating the linear
+program, we must first define some variables used in it: \\ \begin{itemize}
+\item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
+we don't take } X_i \end{array} \right. $ \item For all $t \in O$, we let $t
+= 1$.  \item Let $m = \|L\|$.  \end{itemize} We now state our problem as
+follows:\\ Maximize: $$ \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
+$$ Subject To: $$ \sum_{i=1}^m Weight(c_i) * X_i \leq l, $$ $$ \forall t_j \in
+O, \sum_{i=1}^m t_j * X_i \leq 1, $$ $$ X_i \in \{0, 1\} $$ The linear program
+can be interpreted as follows: \begin{itemize} \item The value of a quarter is
+the total number of courses taken that quarter.  \item In each quarter, the
+total number of credits cannot exceed the specified limit.  \item Only one
+course can be taken in one particular time slot \item A course can only be taken
+or not taken. In other words, decision variables are binary.  \item Each
+non-zero decision variable in the optimal solution represents a class we will
+take.  \end{itemize}
 
 It is worth nothing that all of the t variables are essentially dummy variables
 that ensure the correct number of equations of type 2. Each of the equations
