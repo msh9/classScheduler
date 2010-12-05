@@ -169,9 +169,9 @@ and $MATH300$, or just $MATH136$.
 
 To solve this issues, we introduce a set of rules for each course. Each rule is
 a boolean expression represented in propositional logic in disjunctive normal
-form. For example, the rule associated with $MATH327$ is $$ \text{{\it MATH327:
-(MATH126 AND MATH300) OR MATH136}}.  $$ As previously stated, we denote the set
-of all rules for all classes as $P$.
+form. For example, the rule associated with $MATH327$ in fig~\ref{logic_ex} is
+$$ \text{{\it MATH327: (MATH126 AND MATH300) OR MATH136}}.  $$ As previously
+stated, we denote the set of all rules for all classes as $P$.
 
 Furthermore, to determine if a given student is eligible to register for
 a course offering, we can evaluate the rule for the course, where each clause
@@ -310,8 +310,14 @@ $c$. In Figure~\ref{prereq}, $Dependents(MATH125)$ = 6 while
 $Dependents(MATH307)$ = 1 \end{itemize}
 
 With these functions defined, we can now define our heuristic function:
-\begin{equation} Value(c) = 1 + \alpha * Dependents(c) + \beta * TimeFromNow(c,
-q) + \gamma * Quarters(c) \end{equation} Where $c$ is a given course offering,
+
+\begin{equation} 
+    Value(c) = 1 + \alpha * Dependents(c) + \beta * TimeFromNow(c,q) 
+    - \gamma * Quarters(c)
+    \label{value_func}
+\end{equation} 
+
+Where $c$ is a given course offering,
 $q$ is the current quarter, and $\alpha$, $\beta$, and $\gamma$ are real
 numbers, giving a weight to piece of the heuristic. The scalars are determined
 experimentally.
@@ -322,9 +328,28 @@ program, we must first define some variables used in it: \\ \begin{itemize}
 \item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
 we don't take } X_i \end{array} \right. $ \item For all $t \in O$, we let $t
 = 1$.  \item Let $m = \|L\|$.  \end{itemize} We now state our problem as
-follows:\\ Maximize: $$ \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
-$$ Subject To: $$ \sum_{i=1}^m Weight(c_i) * X_i \leq l, $$ $$ \forall t_j \in
-O, \sum_{i=1}^m t_j * X_i \leq 1, $$ $$ X_i \in \{0, 1\} $$ The linear program
+follows:
+
+Maximize: 
+
+\begin{equation}
+    \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
+    \label{qtr_val}
+\end{equation}
+
+Subject To: 
+
+\begin{equation}
+    \sum_{i=1}^m Weight(c_i) * X_i \leq l, \forall t_j \in O,
+    \label{weight_lim}
+\end{equation}
+
+\begin{equation}
+    \sum_{i=1}^m t_j * X_i \leq 1, X_i \in \{0, 1\}
+    \label{time_con}
+\end{equation}
+
+The linear program
 can be interpreted as follows: \begin{itemize} \item The value of a quarter is
 the total number of courses taken that quarter.  \item In each quarter, the
 total number of credits cannot exceed the specified limit.  \item Only one
@@ -333,11 +358,10 @@ or not taken. In other words, decision variables are binary.  \item Each
 non-zero decision variable in the optimal solution represents a class we will
 take.  \end{itemize}
 
-It is worth nothing that all of the t variables are essentially dummy variables
-that ensure the correct number of equations of type 2. Each of the equations
-based on eqn. 2 ensure that we only take one class per time period per day. Also
-this linear program is ‘nice’ in that it always has feasible origin (don’t take
-any classes), and that the simplest formulation is already in standard form.
+Each of the equations based on eqn. 2 ensure that we only take one class per 
+time period per day. Also this linear program is ‘nice’ in that it always has 
+feasible origin (don’t take any classes), and that the simplest formulation 
+is already in standard form.
 
 As noted in the reference literature this is actually a (strongly) NP-complete
 problem as described \cite{pferschy:kcg}. For the rest of this section we
@@ -354,15 +378,33 @@ our credit limit, and it's value is zero, we know that it will never appear in
 the optimal solution. With the above reasoning we show for our case of class
 schedule that Pferschy and Schauer's \cite{pferschy:kcg} claim that adding
 a dummy node without loss of generality holds. We can now conveniently write the
-class picking problem as the knapsack with conflict graphs problem (KCG): \\
-Maximize: $$ \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i $$ Subject
-To: $$ \sum_{i=1}^m Weight(c_i) * X_i \leq l, $$ $$ X_i + X_j \leq 1 \text{ for
-all connected vertices } i, j \in G_{conflict}, $$ $$ X_i \in \{0, 1\} $$ It is
-worth noting that for relatively small versions of this problem, in the low
-hundreds of variables it is possible to solve this problem exactly using modern
-LP solving software \cite{yamada:heuristic}. In our case, just solving for the
-optimal classes for a single major fits well into the scope of a few hundred (or
-even just tens of) variables. For multiple majors or to consider class selection
+class picking problem as the knapsack with conflict graphs problem (KCG): 
+
+Maximize:
+
+\begin{equation}
+    \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
+\end{equation}
+
+Subject To: 
+
+\begin{equation}
+\sum_{i=1}^m Weight(c_i) * X_i \leq l,
+\end{equation}
+
+\begin{equation}
+X_i + X_j \leq 1 \text{ for all connected vertices } i, j \in G_{conflict},
+\end{equation}
+
+\begin{equation}
+X_i \in \{0, 1\}
+\end{equation}
+
+For versions of this problem in the low hundreds of variables it is possible 
+to solve this problem exactly using modern LP solving software 
+\cite{yamada:heuristic}. In our case, just solving for the optimal classes for 
+a single major fits well into the scope of a few hundred (or even just tens of) 
+variables. For multiple majors or to consider class selection
 for distribution and elective requirements, however the number of classes
 balloons significantly and the KCG problem becomes much harder. For this version
 of the problem we suggest using the techniques used by Yamada et al
