@@ -322,8 +322,8 @@ $q$ is the current quarter, and $\alpha$, $\beta$, and $\gamma$ are real
 numbers, giving a weight to piece of the heuristic. The scalars are determined
 experimentally.
 
-\subsubsection{Formulation as Binary Integer Program} We can now formulate our
-problem as a binary linear programming problem. Before stating the linear
+\subsubsection{Formulation as Binary Integer Program} We can now formulate
+a binary linear programming problem. Before stating the linear
 program, we must first define some variables used in it: \\ \begin{itemize}
 \item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
 we don't take } X_i \end{array} \right. $ \item For all $t \in O$, we let $t
@@ -358,7 +358,7 @@ or not taken. In other words, decision variables are binary.  \item Each
 non-zero decision variable in the optimal solution represents a class we will
 take.  \end{itemize}
 
-Each of the equations based on eqn. 2 ensure that we only take one class per 
+Each of the equations based on eqn.~\ref{time_con} ensure that we only take one class per 
 time period per day. Also this linear program is ‘nice’ in that it always has 
 feasible origin (don’t take any classes), and that the simplest formulation 
 is already in standard form.
@@ -440,4 +440,3 @@ examine what parameters in our heuristic function produce the most desirable
 schedules.
 
 \bibliography{paper_references}{} \bibliographystyle{plain} \end{document}
- 
