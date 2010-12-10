@@ -324,28 +324,30 @@ experimentally.
 
 \subsubsection{Formulation as Binary Integer Program} We can now formulate
 a binary linear programming problem. Before stating the linear
-program, we must first define some variables used in it: \\ \begin{itemize}
-\item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
-we don't take } X_i \end{array} \right. $ \item For all $t \in O$, we let $t
-= 1$.  \item Let $m = \|L\|$.  \end{itemize} We now state our problem as
-follows:
+program, we must first define some variables used in it: 
 
+\begin{itemize}
+    \item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
+we don't take } X_i \end{array} \right. $ 
+    \item For all $t \in O$, we let $t$ represent the conflict graph of classes
+    at time period $t$.
+    \item Let $m = \|L\|$.  
+\end{itemize} 
+We now state our problem as follows: 
 Maximize: 
 
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
     \label{qtr_val}
 \end{equation}
-
-Subject To: 
-
+Subject To:
 \begin{equation}
-    \sum_{i=1}^m Weight(c_i) * X_i \leq l, \forall t_j \in O,
+    \sum_{i=1}^m Weight(c_i) * X_i \leq l, 
     \label{weight_lim}
 \end{equation}
 
 \begin{equation}
-    \sum_{i=1}^m t_j * X_i \leq 1, X_i \in \{0, 1\}
+    \forall t \in O,X_i+X_j \leq 1, \forall pairs (X_i,X_j) \in t
     \label{time_con}
 \end{equation}
 
