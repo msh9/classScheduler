@@ -1,0 +1,870 @@
+University of Washington <http://www.washington.edu/>
+ Search </home/search.html> | Directories </home/directories.html> |
+Reference Tools <http://www.lib.washington.edu/research/>
+UW Home </> > Discover UW </discover/> > Student Guide </students/> >
+Time Schedule </students/timeschd/> 
+| Winter 2009 Time Schedule </students/timeschd/WIN2009/>
+
+
+  Winter Quarter 2009 Time Schedule
+
+
+    MATHEMATICS
+    (COLLEGE OF ARTS & SCIENCES )
+
+
+	
+Enrollment and status (open/closed) were accurate when this page was
+created (*12:09 am March 27, 2009*) but may have changed since then. For
+current enrollment and status, check the Enrollment Summary
+<https://sdb.admin.washington.edu/timeschd/uwnetid/tsstat.asp?QTRYR=WIN+2009&CURRIC=MATH>.
+(UW NetID required.)
+
+Help with the UW Time Schedule </students/reg/tshelp/tshelp.html>
+
+*OVERLOAD POLICY - STUDENTS SHOULD NOT CONTACT THE * *INSTRUCTORS.
+OVERLOADS WILL BE AVAILABLE ON A * *LIMITED BASIS. PLEASE CONTACT THE
+MATH ADVISING * *OFFICE, 543-6830, PADELFORD CO36, FOR MORE INFO. * *TO
+REGISTER FOR MATH 107, 111, OR 120, MOST * *STUDENTS WILL NEED A
+PLACEMENT TEST. MOST STUDENTS * *WILL NEED EITHER A PLACEMENT TEST OR
+PREVIOUS * *COMPLETION OF MATH 120 (FORMERLY MATH 105) WITH A * *GRADE
+OF 2.5 OR HIGHER TO REGISTER FOR MATH 124. * *STUDENTS CURRENTLY
+ENROLLED IN MATH 120 MAY * *REGISTER FOR MATH 124, BUT WILL BE
+DISENROLLED * *BY THE FIRST DAY OF CLASS IF THEY DO NOT COMPLETE * *MATH
+120 WITH A GRADE OF 2.5 OR HIGHER. THE * *REQUIREMENTS ARE DESCRIBED IN
+THE SHEET "ENTRY * *LEVEL COURSE INFORMATION", WHICH IS AVAILABLE * *AT
+UNDERGRADUATE ADVISING, MARY GATES HALL 171 * *AND MATH ADVISING, PDL
+036. *
+
+*Enrl        Sect                                                                                             Crs
+Restr   SLN  ID Cred    Meeting Times     Bldg/Rm       Instructor                 Status Enrl/Lim   Grades  Fee Other
+ ? </students/reg/tshelp/restr.html>       ? </students/reg/tshelp/sln.html>       ? </students/reg/tshelp/cred.html>           ? </students/reg/tshelp/meetings.html>             ? </students/reg/tshelp/bldg.html>               ? </students/reg/tshelp/instr.html>                         ? </students/reg/tshelp/status.html>       ? </students/reg/tshelp/enrllim.html>         ? </students/reg/tshelp/grades.html>      ? </students/reg/tshelp/crsfee.html>    ? </students/reg/tshelp/other.html>*
+
+
+*MATH   098  INTER ALGEBRA </students/crscat/math.html#math098>*	**	
+
+       14961 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14961> A  0       MTWThF 130-220    SMI </students/maps/map.cgi?SMI>  311                                 Open     22/  35                      
+                        ADDED TUITION FEE REQ'D;                                                                                                                            
+                        SEE ADVISOR FOR REG & TUITION INFO                                                                                                                  
+
+       14962 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14962> B  0       MWF    230-320    SMI </students/maps/map.cgi?SMI>  311                                 Open      9/  35                      
+                        TTh    230-320    MLR </students/maps/map.cgi?MLR>  302A     
+                        ADDED TUITION FEE REQ'D;                                                                                                                            
+                        SEE ADVISOR FOR REQ. & TUITION INFO                                                                                                                 
+
+
+*MATH   100  ALGEBRA </students/crscat/math.html#math100>*	**
+*Prerequisites*
+
+      >14963 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14963> A  5       MTWThF 930-1020   *    *                                             0/  30                      
+                        FOR ENTRY CODES, CONTACT                                                                                                                            
+                        INSTRUCTIONAL CENTER, 543-4240,                                                                                                                     
+
+
+*MATH   102  ALGEBRA </students/crscat/math.html#math102>*	**
+*Prerequisites (cancellation in effect)*
+
+***MATH 102 ALL SECTIONS - SPECIALLY ADMITTED * *STUDENTS ONLY; EC
+INSTRUCTIONAL CENTER * *1307 N.E. 40TH * **
+
+       14964 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14964> A  5       MTWThF 1130-1220  ICT </students/maps/map.cgi?ICT>  226      EATON,JULIA R.             Closed   31/  30                      
+
+
+*MATH   103  INTRO ELEM FUNCTION
+</students/crscat/math.html#math103>*	**	*Prerequisites (cancellation in
+effect)*
+
+***MATH 103 ALL SECTIONS - SPECIALLY ADMITTED * *STUDENTS ONLY; EC
+INSTRUCTIONAL CENTER * *1307 N.E. 40TH * **
+
+       14967 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14967> B  5       MTWThF 1230-120   ICT </students/maps/map.cgi?ICT>  226      MC LAIN,BRIAN              Closed   33/  32                      
+
+
+*MATH   111  ALGEBRA WITH APPL </students/crscat/math.html#math111>*
+*(NW,QSR)*	*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * *STUDENTS MUST SATISFY MINIMUM PLACEMENT *
+*REQUIREMENTS, SEE NOTE AT THE BEGINNING OF THE * *MATHEMATICS LISTINGS.
+* **
+
+Restr  14968 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14968> A  5       MWF    930-1020   KNE </students/maps/map.cgi?KNE>  210      LOVELESS,ANDREW            Open    112/ 120                      
+
+Restr  14969 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14969> AA  QZ     TTh    930-1020   CDH </students/maps/map.cgi?CDH>  223B     APONTE-ROMAN,CAMIL I.      Open     35/  40                      
+
+Restr  14970 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14970> AB  QZ     TTh    1030-1120  CDH </students/maps/map.cgi?CDH>  223B     APONTE-ROMAN,CAMIL I.      Open     38/  40                      
+
+Restr  14971 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14971> AC  QZ     TTh    930-1020   AND </students/maps/map.cgi?AND>  010      WINFREE,TROY               Open     39/  40                      
+
+Restr  14973 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14973> B  5       MWF    1030-1120  GWN </students/maps/map.cgi?GWN>  301      LOVELESS,ANDREW            Open    114/ 120                      
+
+Restr  14974 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14974> BA  QZ     TTh    1030-1120  LOW </students/maps/map.cgi?LOW>  113      LIND,CHRISTINE L.          Open     38/  40                      
+
+Restr  14975 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14975> BB  QZ     TTh    1130-1220  LOW </students/maps/map.cgi?LOW>  113      LIND,CHRISTINE L.          Open     37/  40                      
+
+Restr  14976 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14976> BC  QZ     TTh    1030-1120  AND </students/maps/map.cgi?AND>  010      WINFREE,TROY               Open     39/  40                      
+
+Restr  14978 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14978> C  5       MWF    1130-1220  GWN </students/maps/map.cgi?GWN>  301      LOVELESS,ANDREW            Open    155/ 160                      
+
+Restr  14979 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14979> CA  QZ     TTh    1130-1220  SWS </students/maps/map.cgi?SWS>  032      BOUVIER,GEORGE N           Open     37/  40                      
+
+Restr  14980 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14980> CB  QZ     TTh    1230-120   SWS </students/maps/map.cgi?SWS>  032      BOUVIER,GEORGE N           Closed   40/  40                      
+
+Restr  14981 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14981> CC  QZ     TTh    1130-1220  SMI </students/maps/map.cgi?SMI>  405      SUPPLE,AMY K.              Open     39/  40                      
+
+Restr  14982 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14982> CD  QZ     TTh    1230-120   SMI </students/maps/map.cgi?SMI>  405      SUPPLE,AMY K.              Open     39/  40                      
+
+
+*MATH   112  BUSINESS &ECON CALC </students/crscat/math.html#math112>*
+*(NW,QSR)*	*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * **
+
+Restr  14983 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14983> A  5       MWF    1030-1120  AND </students/maps/map.cgi?AND>  223      TAGGART,JENNIFER           Open    139/ 160                      
+
+Restr  14984 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14984> AA  QZ     TTh    1030-1120  DEN </students/maps/map.cgi?DEN>  211      MOODY,DUSTIN               Open     38/  40                      
+
+Restr  14985 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14985> AB  QZ     TTh    1130-1220  DEN </students/maps/map.cgi?DEN>  211      MOODY,DUSTIN               Open     38/  40                      
+
+Restr  14986 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14986> AC  QZ     TTh    1030-1120  LAW </students/maps/map.cgi?LAW>  118      PATROLIA,LEE               Open     34/  40                      
+
+Restr  14987 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14987> AD  QZ     TTh    1130-1220  LAW </students/maps/map.cgi?LAW>  118      PATROLIA,LEE               Open     29/  40                      
+
+Restr  14988 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14988> B  5       MWF    1130-1220  AND </students/maps/map.cgi?AND>  223      TAGGART,JENNIFER           Open    151/ 160                      
+
+Restr  14989 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14989> BA  QZ     TTh    1130-1220  MGH </students/maps/map.cgi?MGH>  251      GRIGG,NATHAN               Open     35/  40                      
+
+Restr  14990 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14990> BB  QZ     TTh    1230-120   MGH </students/maps/map.cgi?MGH>  251      GRIGG,NATHAN               Open     38/  40                      
+
+Restr  14991 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14991> BC  QZ     TTh    1130-1220  CDH </students/maps/map.cgi?CDH>  223B     WOLCOTT,FRANK LUCAS        Open     39/  40                      
+
+Restr  14992 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14992> BD  QZ     TTh    1230-120   CDH </students/maps/map.cgi?CDH>  223B     WOLCOTT,FRANK LUCAS        Open     39/  40                      
+
+Restr  14993 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14993> C  5       MWF    1230-120   AND </students/maps/map.cgi?AND>  223      TAGGART,JENNIFER           Open    127/ 160                      
+
+Restr  14994 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14994> CA  QZ     TTh    1230-120   BLM </students/maps/map.cgi?BLM>  312      CARR,PAUL A                Closed   40/  40                      
+
+Restr  14995 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14995> CB  QZ     TTh    130-220    BLM </students/maps/map.cgi?BLM>  312      CARR,PAUL A                Open     37/  40                      
+
+Restr  14996 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14996> CC  QZ     TTh    1230-120   CDH </students/maps/map.cgi?CDH>  115      ZHOU,JIANSONG              Open     29/  40                      
+
+Restr  14997 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14997> CD  QZ     TTh    130-220    CDH </students/maps/map.cgi?CDH>  115      ZHOU,JIANSONG              Open     21/  40                      
+
+
+*MATH   120  PRECALCULUS </students/crscat/math.html#math120>*	*(NW)*
+*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * *THIS DOES NOT INCLUDE THE EVENING SECTIONS. *
+*STUDENTS MUST SATISFY MINIMUM PLACEMENT * *REQUIREMENTS, SEE NOTE AT
+THE BEGINNING OF THE * *MATHEMATICS LISTINGS. * **
+
+Restr  14998 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14998> A  5       MWF    930-1020   CDH </students/maps/map.cgi?CDH>  109      CONROY,MATTHEW </students/icd/S/math/120pickle5.html>             Open    149/ 160                      
+
+Restr  14999 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=14999> AA  QZ     TTh    930-1020   MGH </students/maps/map.cgi?MGH>  271      CHOI,DAESHIK               Open     32/  40                      
+
+Restr  15000 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15000> AB  QZ     TTh    1030-1120  MGH </students/maps/map.cgi?MGH>  271      CHOI,DAESHIK               Open     39/  40                      
+
+Restr  15001 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15001> AC  QZ     TTh    930-1020   SMI </students/maps/map.cgi?SMI>  305      WANG,DAKE                  Open     39/  40                      
+
+Restr  15002 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15002> AD  QZ     TTh    1030-1120  SMI </students/maps/map.cgi?SMI>  305      WANG,DAKE                  Open     39/  40                      
+
+Restr  15003 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15003> B  5       MWF    1030-1120  CDH </students/maps/map.cgi?CDH>  109      CONROY,MATTHEW </students/icd/S/math/120pickle5.html>             Open    149/ 160                      
+
+Restr  15004 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15004> BA  QZ     TTh    1030-1120  BNS </students/maps/map.cgi?BNS>  117      CHEN,MENG-HUO              Open     32/  40                      
+
+Restr  15005 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15005> BB  QZ     TTh    1130-1220  BNS </students/maps/map.cgi?BNS>  117      CHEN,MENG-HUO              Closed   40/  40                      
+
+Restr  15006 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15006> BC  QZ     TTh    1030-1120  CDH </students/maps/map.cgi?CDH>  115      SISODIA,GAUTAM             Open     38/  40                      
+
+Restr  15007 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15007> BD  QZ     TTh    1130-1220  CDH </students/maps/map.cgi?CDH>  115      SISODIA,GAUTAM             Open     39/  40                      
+
+
+*MATH   124  CALC ANALYT GEOM I </students/crscat/math.html#math124>*
+*(NW,QSR)*	*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * *THIS DOES NOT INCLUDE THE EVENING SECTIONS. *
+*STUDENTS MUST SATISFY MINIMUM PLACEMENT * *REQUIREMENTS, SEE NOTE AT
+THE BEGINNING OF THE * *MATHEMATICS LISTINGS. * **
+
+Restr  15008 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15008> A  5       MWF    930-1020   MEB </students/maps/map.cgi?MEB>  238      NICHIFOR,ALEXANDRA         Open     77/  81                      
+
+Restr  15009 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15009> AA  QZ     T      830-950    CDH </students/maps/map.cgi?CDH>  128      LAJOIE,GUILLAUME           Closed   27/  27                      
+                        Th     830-920    CDH </students/maps/map.cgi?CDH>  125      LAJOIE,GUILLAUME
+
+Restr  15010 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15010> AB  QZ     T      830-950    CDH </students/maps/map.cgi?CDH>  128B     WARD,MATTHEW               Open     24/  27                      
+                        Th     830-920    CDH </students/maps/map.cgi?CDH>  128B     WARD,MATTHEW
+
+Restr  15011 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15011> AC  QZ     T      1000-1120  CDH </students/maps/map.cgi?CDH>  128      LAJOIE,GUILLAUME           Open     26/  27                      
+                        Th     930-1020   CDH </students/maps/map.cgi?CDH>  125      LAJOIE,GUILLAUME
+
+Restr  15012 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15012> B  5       MWF    1030-1120  MEB </students/maps/map.cgi?MEB>  238      NICHIFOR,ALEXANDRA         Open     78/  81                      
+
+Restr  15013 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15013> BA  QZ     T      1000-1120  CDH </students/maps/map.cgi?CDH>  128B     WARD,MATTHEW               Closed   27/  27                      
+                        Th     930-1020   CDH </students/maps/map.cgi?CDH>  128B     WARD,MATTHEW
+                        INCLUDES MSEP STUDENTS                                                                                                                              
+
+Restr  15014 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15014> BB  QZ     T      1000-1120  CDH </students/maps/map.cgi?CDH>  223C     DEINES,ALYSON L            Open     25/  27                      
+                        Th     930-1020   DEN </students/maps/map.cgi?DEN>  217      DEINES,ALYSON L
+
+Restr  15015 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15015> BC  QZ     T      830-950    CDH </students/maps/map.cgi?CDH>  223C     DEINES,ALYSON L            Open     26/  27                      
+                        Th     830-920    DEN </students/maps/map.cgi?DEN>  217      DEINES,ALYSON L
+
+Restr  15016 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15016> C  5       MWF    1030-1120  SMI </students/maps/map.cgi?SMI>  304      IQBAL,AMER                 Open     77/  81                      
+
+Restr  15017 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15017> CA  QZ     T      1000-1120  BAG </students/maps/map.cgi?BAG>  331A     AHOLT,CHRISTOPHER C.       Closed   27/  27                      
+                        Th     930-1020   CDH </students/maps/map.cgi?CDH>  223A     AHOLT,CHRISTOPHER C.
+
+Restr  15018 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15018> CB  QZ     T      1000-1120  BLD </students/maps/map.cgi?BLD>  286      SEN GUPTA,SOURAV           Open     24/  27                      
+                        Th     930-1020   EEB </students/maps/map.cgi?EEB>  026      SEN GUPTA,SOURAV
+
+Restr  15019 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15019> CC  QZ     T      1130-1250  BAG </students/maps/map.cgi?BAG>  331A     AHOLT,CHRISTOPHER C.       Open     26/  27                      
+                        Th     1030-1120  CDH </students/maps/map.cgi?CDH>  223A     AHOLT,CHRISTOPHER C.
+
+Restr  15020 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15020> D  5       MWF    1130-1220  SMI </students/maps/map.cgi?SMI>  304      IQBAL,AMER                 Open     78/  81                      
+
+Restr  15021 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15021> DA  QZ     T      1130-1250  BLD </students/maps/map.cgi?BLD>  286      SEN GUPTA,SOURAV           Open     26/  27                      
+                        Th     1030-1120  EEB </students/maps/map.cgi?EEB>  026      SEN GUPTA,SOURAV
+
+Restr  15022 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15022> DB  QZ     T      1130-1250  BLD </students/maps/map.cgi?BLD>  392      SPREHN,DAVID W.            Open     25/  27                      
+                        Th     1030-1120  EEB </students/maps/map.cgi?EEB>  031      SPREHN,DAVID W.
+
+Restr  15023 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15023> DC  QZ     T      1000-1120  BLD </students/maps/map.cgi?BLD>  392      SPREHN,DAVID W.            Closed   27/  27                      
+                        Th     930-1020   EEB </students/maps/map.cgi?EEB>  031      SPREHN,DAVID W.
+
+Restr  15024 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15024> E  5       MWF    1230-120   GLD </students/maps/map.cgi?GLD>  322      ZHANG,JIAN JAMES           Open     78/  81                      
+
+Restr  15025 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15025> EA  QZ     T      1130-1250  CDH </students/maps/map.cgi?CDH>  128      PAQUETTE,ELLIOT            Open     24/  27                      
+                        Th     1030-1120  EEB </students/maps/map.cgi?EEB>  042      PAQUETTE,ELLIOT
+
+Restr  15026 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15026> EB  QZ     T      1130-1250  CDH </students/maps/map.cgi?CDH>  128B     TROGDON,THOMAS             Closed   27/  27                      
+                        Th     1030-1120  EEB </students/maps/map.cgi?EEB>  054      TROGDON,THOMAS
+
+Restr  15027 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15027> EC  QZ     T      100-220    CDH </students/maps/map.cgi?CDH>  128      PAQUETTE,ELLIOT            Closed   27/  27                      
+                        Th     1130-1220  EEB </students/maps/map.cgi?EEB>  042      PAQUETTE,ELLIOT
+
+Restr  15028 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15028> F  5       MWF    1130-1220  GLD </students/maps/map.cgi?GLD>  322      ZHANG,JIAN JAMES           Open     79/  81                      
+
+Restr  15029 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15029> FA  QZ     T      100-220    CDH </students/maps/map.cgi?CDH>  128B     TROGDON,THOMAS             Open     26/  27                      
+                        Th     1130-1220  EEB </students/maps/map.cgi?EEB>  054      TROGDON,THOMAS
+
+Restr  15030 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15030> FB  QZ     T      100-220    CDH </students/maps/map.cgi?CDH>  223C     CONTOIS,MARK D             Closed   27/  27                      
+                        Th     1130-1220  FSH </students/maps/map.cgi?FSH>  109      CONTOIS,MARK D
+
+Restr  15031 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15031> FC  QZ     T      1130-1250  CDH </students/maps/map.cgi?CDH>  223C     CONTOIS,MARK D             Open     26/  27                      
+                        Th     1030-1120  FSH </students/maps/map.cgi?FSH>  109      CONTOIS,MARK D
+
+Restr  15032 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15032> G  5       MWF    1230-120   SMI </students/maps/map.cgi?SMI>  102      DEVINATZ,ETHAN S           Open     75/  81                      
+
+Restr  15033 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15033> GA  QZ     T      100-220    BAG </students/maps/map.cgi?BAG>  331A     FAN,WAI TONG               Open     26/  27                      
+                        Th     130-220    EEB </students/maps/map.cgi?EEB>  026      FAN,WAI TONG
+
+Restr  15034 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15034> GB  QZ     T      100-220    BLD </students/maps/map.cgi?BLD>  286      VASAN,VISHAL               Open     23/  27                      
+                        Th     130-220    EEB </students/maps/map.cgi?EEB>  031      VASAN,VISHAL
+
+Restr  15035 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15035> GC  QZ     T      230-350    BAG </students/maps/map.cgi?BAG>  331A     FAN,WAI TONG               Open     26/  27                      
+                        Th     1230-120   EEB </students/maps/map.cgi?EEB>  026      FAN,WAI TONG
+
+Restr  15036 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15036> H  5       MWF    130-220    SMI </students/maps/map.cgi?SMI>  102      DEVINATZ,ETHAN S           Open     64/  81                      
+
+Restr  15037 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15037> HA  QZ     T      230-350    BLD </students/maps/map.cgi?BLD>  286      VASAN,VISHAL               Open     22/  27                      
+                        Th     1230-120   EEB </students/maps/map.cgi?EEB>  031      VASAN,VISHAL
+
+Restr  15038 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15038> HB  QZ     T      230-350    BLD </students/maps/map.cgi?BLD>  392      TRAN,HUY V.                Open     16/  27                      
+                        Th     1230-120   EEB </students/maps/map.cgi?EEB>  042      TRAN,HUY V.
+
+Restr  15039 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15039> HC  QZ     T      100-220    BLD </students/maps/map.cgi?BLD>  392      TRAN,HUY V.                Open     26/  27                      
+                        Th     130-220    EEB </students/maps/map.cgi?EEB>  042      TRAN,HUY V.
+
+Restr  15040 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15040> I  5       MWF    1230-120   SMI </students/maps/map.cgi?SMI>  304      CHEN,ZHEN-QING             Open     72/  81                      
+
+Restr  15041 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15041> IA  QZ     T      230-350    CDH </students/maps/map.cgi?CDH>  128B     NIVALA,MICHAEL A           Open     26/  27                      
+                        Th     230-320    CDH </students/maps/map.cgi?CDH>  128B     NIVALA,MICHAEL A
+
+Restr  15042 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15042> IB  QZ     T      100-220    SWS </students/maps/map.cgi?SWS>  026      WU,MIN                     Open     23/  27                      
+                        Th     130-220    BLD </students/maps/map.cgi?BLD>  286      WU,MIN
+                        MEETS IN BAG 108 T, 01-06-09 ONLY                                                                                                                   
+
+Restr  15043 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15043> IC  QZ     T      230-350    SWS </students/maps/map.cgi?SWS>  026      WU,MIN                     Open     23/  27                      
+                        Th     230-320    BLD </students/maps/map.cgi?BLD>  286      WU,MIN
+                        MEETS IN SMI 311 T, 01-06-09 ONLY                                                                                                                   
+
+
+*MATH   125  CALC ANALYT GEOM II </students/crscat/math.html#math125>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * *THIS DOES NOT INCLUDE THE EVENING SECTIONS. * **
+
+Restr  15044 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15044> A  5       MWF    830-920    SMI </students/maps/map.cgi?SMI>  211      KOBLITZ,NEAL I             Open     80/  81                      
+
+Restr  15045 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15045> AA  QZ     T      830-920    CHL </students/maps/map.cgi?CHL>  101      CARD,RYAN                  Open     26/  27                      
+                        Th     830-950    CDH </students/maps/map.cgi?CDH>  223C     CARD,RYAN
+
+Restr  15046 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15046> AB  QZ     T      830-920    DEN </students/maps/map.cgi?DEN>  205      GOFF,MICHAEL K             Closed   27/  27                      
+                        Th     830-950    CHL </students/maps/map.cgi?CHL>  101      GOFF,MICHAEL K
+                        INCLUDES MSEP STUDENTS                                                                                                                              
+
+Restr  15047 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15047> AC  QZ     T      930-1020   CHL </students/maps/map.cgi?CHL>  101      CARD,RYAN                  Closed   27/  27                      
+                        Th     1000-1120  CDH </students/maps/map.cgi?CDH>  223C     CARD,RYAN
+
+Restr  15048 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15048> B  5       MWF    930-1020   SMI </students/maps/map.cgi?SMI>  211      KOBLITZ,NEAL I             Open     76/  81                      
+
+Restr  15049 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15049> BA  QZ     T      930-1020   DEN </students/maps/map.cgi?DEN>  205      GOFF,MICHAEL K             Open     24/  27                      
+                        Th     1000-1120  CHL </students/maps/map.cgi?CHL>  101      GOFF,MICHAEL K
+
+Restr  15050 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15050> BB  QZ     T      930-1020   DEN </students/maps/map.cgi?DEN>  217      CROSSLEY,SAMANTHA M.       Open     26/  27                      
+                        Th     1000-1120  DEN </students/maps/map.cgi?DEN>  205      CROSSLEY,SAMANTHA M.
+
+Restr  15051 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15051> BC  QZ     T      830-920    DEN </students/maps/map.cgi?DEN>  217      CROSSLEY,SAMANTHA M.       Open     26/  27                      
+                        Th     830-950    DEN </students/maps/map.cgi?DEN>  205      CROSSLEY,SAMANTHA M.
+                        INCLUDES MSEP STUDENTS                                                                                                                              
+
+Restr  15052 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15052> C  5       MWF    930-1020   SMI </students/maps/map.cgi?SMI>  102      ROHDE,STEFFEN              Open     79/  81                      
+
+Restr  15053 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15053> CA  QZ     T      1130-1220  CDH </students/maps/map.cgi?CDH>  223A     SULLIVAN,DAVID MARK        Open     26/  27                      
+                        Th     1000-1120  BAG </students/maps/map.cgi?BAG>  331A     SULLIVAN,DAVID MARK
+
+Restr  15054 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15054> CB  QZ     T      1130-1220  CHL </students/maps/map.cgi?CHL>  101      PAWLOWSKI,BRENDAN          Closed   29/  27                      
+                        Th     1000-1120  BLD </students/maps/map.cgi?BLD>  286      PAWLOWSKI,BRENDAN
+
+Restr  15055 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15055> CC  QZ     T      1030-1120  CDH </students/maps/map.cgi?CDH>  223A     SULLIVAN,DAVID MARK        Open     24/  27                      
+                        Th     1130-1250  BAG </students/maps/map.cgi?BAG>  331A     SULLIVAN,DAVID MARK
+
+Restr  15056 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15056> D  5       MWF    1030-1120  SMI </students/maps/map.cgi?SMI>  102      ROHDE,STEFFEN              Open     79/  81                      
+
+Restr  15057 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15057> DA  QZ     T      1030-1120  CHL </students/maps/map.cgi?CHL>  101      PAWLOWSKI,BRENDAN          Open     23/  27                      
+                        Th     1130-1250  BLD </students/maps/map.cgi?BLD>  286      PAWLOWSKI,BRENDAN
+
+Restr  15058 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15058> DB  QZ     T      1030-1120  DEN </students/maps/map.cgi?DEN>  205      BUELK,SAMUEL J.            Closed   28/  27                      
+                        Th     1130-1250  BLD </students/maps/map.cgi?BLD>  392      BUELK,SAMUEL J.
+
+Restr  15059 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15059> DC  QZ     T      1130-1220  DEN </students/maps/map.cgi?DEN>  205      BUELK,SAMUEL J.            Closed   28/  27                      
+                        Th     1000-1120  BLD </students/maps/map.cgi?BLD>  392      BUELK,SAMUEL J.
+
+Restr  15060 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15060> E  5       MWF    1130-1220  SMI </students/maps/map.cgi?SMI>  102      BEKYEL,EBRU                Closed   81/  81                      
+
+Restr  15061 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15061> EA  QZ     T      1130-1220  EEB </students/maps/map.cgi?EEB>  026      LOU,SHUWEN                 Open     26/  27                      
+                        Th     1000-1120  CDH </students/maps/map.cgi?CDH>  128      LOU,SHUWEN
+
+Restr  15062 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15062> EB  QZ     T      1130-1220  BAG </students/maps/map.cgi?BAG>  108      LOVIT,DAVID O.             Closed   28/  27                      
+                        Th     1000-1120  BAG </students/maps/map.cgi?BAG>  108      LOVIT,DAVID O.
+
+Restr  15063 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15063> EC  QZ     T      1030-1120  EEB </students/maps/map.cgi?EEB>  026      LOU,SHUWEN                 Closed   27/  27                      
+                        Th     1130-1250  CDH </students/maps/map.cgi?CDH>  128      LOU,SHUWEN
+
+Restr  15064 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15064> F  5       MWF    1130-1220  SMI </students/maps/map.cgi?SMI>  211      DUMITRIU,IOANA             Open     80/  81                      
+
+Restr  15065 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15065> FA  QZ     T      230-320    CDH </students/maps/map.cgi?CDH>  223A     SLIVKEN,ERIK D.            Closed   27/  27                      
+                        Th     200-320    CDH </students/maps/map.cgi?CDH>  223A     SLIVKEN,ERIK D.
+
+Restr  15066 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15066> FB  QZ     T      230-320    CMU </students/maps/map.cgi?CMU>  243      SHI,PEIZHE                 Closed   27/  27                      
+                        Th     200-320    CMU </students/maps/map.cgi?CMU>  243      SHI,PEIZHE
+
+Restr  15067 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15067> FC  QZ     T      130-220    CDH </students/maps/map.cgi?CDH>  223A     SLIVKEN,ERIK D.            Open     26/  27                      
+                        Th     1230-150   CDH </students/maps/map.cgi?CDH>  223A     SLIVKEN,ERIK D.
+
+      >15068 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15068> G  5       MWF    1130-1220  CDH </students/maps/map.cgi?CDH>  135      CONROY,MATTHEW                      32/  50                H     
+
+      >15069 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15069> GA  QZ     T      1030-1120  EEB </students/maps/map.cgi?EEB>  031      TITTELFITZ,JUSTIN                   12/  27                H     
+                        Th     1030-1150  CDH </students/maps/map.cgi?CDH>  128B     TITTELFITZ,JUSTIN
+
+      >15070 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15070> GB  QZ     T      1130-1220  EEB </students/maps/map.cgi?EEB>  031      TITTELFITZ,JUSTIN                   20/  27                H     
+                        Th     1200-120   CDH </students/maps/map.cgi?CDH>  128B     TITTELFITZ,JUSTIN
+
+Restr  15071 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15071> H  5       MWF    1030-1120  SMI </students/maps/map.cgi?SMI>  211      DUMITRIU,IOANA             Open     80/  81                      
+
+Restr  15072 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15072> HA  QZ     T      130-220    CMU </students/maps/map.cgi?CMU>  243      SHI,PEIZHE                 Open     26/  27                      
+                        Th     1230-150   CMU </students/maps/map.cgi?CMU>  243      SHI,PEIZHE
+
+Restr  15073 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15073> HB  QZ     T      230-320    DEN </students/maps/map.cgi?DEN>  217      GORSTKO,YELIZAVETA A       Closed   28/  27                      
+                        Th     200-320    DEN </students/maps/map.cgi?DEN>  217      GORSTKO,YELIZAVETA A
+
+Restr  15074 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15074> HC  QZ     T      130-220    DEN </students/maps/map.cgi?DEN>  217      GORSTKO,YELIZAVETA A       Open     26/  27                      
+                        Th     1230-150   DEN </students/maps/map.cgi?DEN>  217      GORSTKO,YELIZAVETA A
+
+Restr  15075 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15075> I  5       MWF    130-220    SMI </students/maps/map.cgi?SMI>  211      BUBE,KENNETH P.            Open     80/  81                      
+
+Restr  15076 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15076> IA  QZ     T      230-320    EEB </students/maps/map.cgi?EEB>  026      WILLSE,TRAVIS J.           Open     26/  27                      
+                        Th     200-320    BAG </students/maps/map.cgi?BAG>  331A     WILLSE,TRAVIS J.
+
+Restr  15077 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15077> IB  QZ     T      230-320    BAG </students/maps/map.cgi?BAG>  108      WANG,WENHAN                Closed   27/  27                      
+                        Th     1230-150   BAG </students/maps/map.cgi?BAG>  108      WANG,WENHAN
+
+Restr  15078 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15078> IC  QZ     T      130-220    EEB </students/maps/map.cgi?EEB>  026      WILLSE,TRAVIS J.           Closed   27/  27                      
+                        Th     330-450    BAG </students/maps/map.cgi?BAG>  331A     WILLSE,TRAVIS J.
+
+Restr  15079 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15079> J  5       MWF    1230-120   SMI </students/maps/map.cgi?SMI>  211      BEKYEL,EBRU                Open     80/  81                      
+
+Restr  15080 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15080> JA  QZ     T      130-220    EEB </students/maps/map.cgi?EEB>  031      WANG,WENHAN                Open     26/  27                      
+                        Th     200-320    BAG </students/maps/map.cgi?BAG>  108      WANG,WENHAN
+
+Restr  15081 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15081> JB  QZ     T      130-220    DEN </students/maps/map.cgi?DEN>  317      BARNES,JOEL W.             Closed   27/  27                      
+                        Th     1230-150   CDH </students/maps/map.cgi?CDH>  223C     BARNES,JOEL W.
+
+Restr  15082 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15082> JC  QZ     T      230-320    DEN </students/maps/map.cgi?DEN>  317      BARNES,JOEL W.             Closed   27/  27                      
+                        Th     200-320    CDH </students/maps/map.cgi?CDH>  223C     BARNES,JOEL W.
+
+
+*MATH   126  CALC ANYL GEOM III </students/crscat/math.html#math126>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+*MATH 111, 112, 120, 124, 125, 126, 144, AND 145: * *FINAL EXAMINATIONS
+WILL BE THE SATURDAY * *IMMEDIATELY FOLLOWING THE LAST DAY OF
+INSTRUCTION. * *(DIFFERENT FROM THE PUBLISHED WINTER QUARTER *
+*EXAMINATION SCHEDULE). * *THIS DOES NOT INCLUDE THE EVENING SECTIONS. * **
+
+Restr  15084 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15084> A  5       MWF    930-1020   EEB </students/maps/map.cgi?EEB>  105      MILAKIS,EMMANOUIL          Open    153/ 160                      
+
+Restr  15085 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15085> AA  QZ     TTh    930-1020   SMI </students/maps/map.cgi?SMI>  405      SURYANARAYAN,SWETA         Open     37/  40                      
+
+Restr  15086 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15086> AB  QZ     TTh    1030-1120  SMI </students/maps/map.cgi?SMI>  405      SURYANARAYAN,SWETA         Open     38/  40                      
+
+Restr  15087 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15087> AC  QZ     TTh    930-1020   THO </students/maps/map.cgi?THO>  325      BAKSHI,ASHESH              Open     39/  40                      
+
+Restr  15088 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15088> AD  QZ     TTh    1030-1120  THO </students/maps/map.cgi?THO>  325      BAKSHI,ASHESH              Open     39/  40                      
+
+Restr  15089 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15089> B  5       MWF    1030-1120  EEB </students/maps/map.cgi?EEB>  105      MILAKIS,EMMANOUIL          Open    155/ 160                      
+
+Restr  15090 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15090> BA  QZ     TTh    1030-1120  DEN </students/maps/map.cgi?DEN>  304      ZHANG,JUN                  Open     37/  40                      
+
+Restr  15091 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15091> BB  QZ     TTh    1130-1220  DEN </students/maps/map.cgi?DEN>  304      ZHANG,JUN                  Closed   40/  40                      
+
+Restr  15092 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15092> BC  QZ     T      1030-1120  SWS </students/maps/map.cgi?SWS>  B014     ARAVKIN,ALEKSANDR Y.       Closed   40/  40                      
+                        Th     1030-1120  RAI </students/maps/map.cgi?RAI>  121      ARAVKIN,ALEKSANDR Y.
+
+Restr  15093 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15093> BD  QZ     T      1130-1220  SWS </students/maps/map.cgi?SWS>  B014     ARAVKIN,ALEKSANDR Y.       Open     38/  40                      
+                        Th     1130-1220  RAI </students/maps/map.cgi?RAI>  121      ARAVKIN,ALEKSANDR Y.
+
+Restr  15094 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15094> C  5       MWF    1230-120   CDH </students/maps/map.cgi?CDH>  109      PERKINS,PATRICK            Open    157/ 160                      
+
+Restr  15095 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15095> CA  QZ     TTh    1130-1220  MGH </students/maps/map.cgi?MGH>  271      GUTZWILLER,LUKE            Closed   40/  40                      
+
+Restr  15096 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15096> CB  QZ     TTh    1230-120   MGH </students/maps/map.cgi?MGH>  271      GUTZWILLER,LUKE            Closed   40/  40                      
+
+Restr  15097 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15097> CC  QZ     TTh    1130-1220  SMI </students/maps/map.cgi?SMI>  305      JORDAN-SQUIRE,CHRISTOPHER  Open     39/  40                      
+
+Restr  15098 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15098> CD  QZ     TTh    1230-120   SMI </students/maps/map.cgi?SMI>  305      JORDAN-SQUIRE,CHRISTOPHER  Open     38/  40                      
+
+
+*MATH   135  ACCEL HONORS CALC </students/crscat/math.html#math135>*	*(NW)*	
+
+      >15099 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15099> A  5       MTWThF 1030-1120  LAW </students/maps/map.cgi?LAW>  127      DUCHAMP,THOMAS E.                   24/  35                H     
+                        EC AVAILABLE IN C-36 PADELFORD                                                                                                                      
+
+
+*MATH   171  MATH ELEM SCH TEACH </students/crscat/math.html#math171>*
+*(NW)*	
+
+       15101 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15101> A  3       WF     130-250    LAW </students/maps/map.cgi?LAW>  116      WARFIELD,VIRGINIA          Open     29/  30  CR/NC               
+
+
+*MATH   197  PROBLEM SOLVING </students/crscat/math.html#math197>*	*(NW)*	
+
+      >15102 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15102> A  2       to be arranged    *    *                                             9/  40  CR/NC               
+
+      >15103 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15103> B  2       to be arranged    *    *                                            22/  40  CR/NC               
+
+
+*MATH   198  SPECIAL TOPICS </students/crscat/math.html#math198>*	**	
+
+ IS   >15104 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15104> A  1-5     to be arranged    *    *                                             0/  13  CR/NC               
+
+
+*MATH   300  MATH REASONING </students/crscat/math.html#math300>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15105 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15105> A  3       MWF    1130-1220  SMI </students/maps/map.cgi?SMI>  311      FOLLAND,GERALD B.          Open     27/  30                      
+
+Restr  15106 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15106> B  3       MWF    1030-1120  BAG </students/maps/map.cgi?BAG>  331A     FOLLAND,GERALD B.          Open     28/  30                      
+
+Restr  19644 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=19644> C  3       MWF    130-220    SMI </students/maps/map.cgi?SMI>  304      MCGOVERN,WILLIAM M         Open     27/  30                      
+
+
+*MATH   307  INTRO TO DIFF EQ </students/crscat/math.html#math307>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15107 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15107> A  3       MWF    930-1020   RAI </students/maps/map.cgi?RAI>  121      VANCE,STEPHANIE LEE        Open     49/  50                      
+
+Restr  15108 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15108> B  3       MWF    930-1020   AND </students/maps/map.cgi?AND>  010      DAIRBEKOV,NURLAN           Open     19/  45                      
+
+Restr  15109 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15109> C  3       MWF    1030-1120  WFS </students/maps/map.cgi?WFS>  201      DAIRBEKOV,NURLAN           Open     38/  50                      
+
+Restr  15110 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15110> D  3       MWF    1130-1220  SIG </students/maps/map.cgi?SIG>  224      LIND,DOUGLAS A             Open     47/  50                      
+
+Restr  15111 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15111> E  3       MWF    1230-120   SIG </students/maps/map.cgi?SIG>  224      LIND,DOUGLAS A             Open     46/  50                      
+
+Restr  15112 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15112> F  3       MWF    1230-120   CHL </students/maps/map.cgi?CHL>  015      FINKEL,DANIEL              Closed   50/  50                      
+
+Restr  15113 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15113> G  3       MWF    130-220    CHL </students/maps/map.cgi?CHL>  015      DUNDON,ARIANA F            Open     47/  50                      
+                        INCLUDES MSEP STUDENTS                                                                                                                              
+
+Restr  15114 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15114> H  3       MWF    130-220    BAG </students/maps/map.cgi?BAG>  261      SOLOMYAK,MARGARITA         Open     45/  50                      
+
+Restr  15115 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15115> I  3       MWF    1230-120   SIG </students/maps/map.cgi?SIG>  225      WHITCHER,URSULA            Open     40/  50                      
+
+
+*MATH   308  MATRIX ALGEBRA </students/crscat/math.html#math308>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15116 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15116> A  3       MWF    930-1020   CMU </students/maps/map.cgi?CMU>  230      SOLOMYAK,BORIS             Open     47/  50                      
+
+Restr  15117 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15117> B  3       MWF    1030-1120  SIG </students/maps/map.cgi?SIG>  225      LIU,HONGYU                 Closed   51/  50                      
+
+Restr  15118 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15118> C  3       MWF    1130-1220  CHL </students/maps/map.cgi?CHL>  015      LIU,HONGYU                 Open     49/  50                      
+
+Restr  15119 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15119> D  3       MWF    1130-1220  LOW </students/maps/map.cgi?LOW>  106      HOLMAN,SEAN                Open     48/  50                      
+
+Restr  15120 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15120> E  3       MWF    1230-120   LOW </students/maps/map.cgi?LOW>  106      HOLMAN,SEAN                Closed   52/  50                      
+
+Restr  15121 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15121> F  3       MWF    1230-120   LOW </students/maps/map.cgi?LOW>  205      CURTIS,EDWARD B            Open     47/  50                      
+
+Restr  15122 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15122> G  3       MWF    130-220    LOW </students/maps/map.cgi?LOW>  205      CURTIS,EDWARD B            Open     49/  50                      
+                        INCLUDES MSEP STUDENTS                                                                                                                              
+
+Restr  15123 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15123> H  3       MWF    930-1020   MOR </students/maps/map.cgi?MOR>  220      KOO,TAK-LUN                Open     40/  50                      
+
+Restr  15124 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15124> I  3       MWF    1030-1120  MEB </students/maps/map.cgi?MEB>  248      KOO,TAK-LUN                Open     46/  50                      
+
+Restr  19744 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=19744> J  3       MWF    1230-120   EEB </students/maps/map.cgi?EEB>  037      PEZZOLI,ELENA              Open     49/  50                      
+
+
+*MATH   309  LINEAR ANALYSIS </students/crscat/math.html#math309>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15125 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15125> A  3       MWF    1030-1120  CMU </students/maps/map.cgi?CMU>  230      SOLOMYAK,BORIS             Open     46/  50                      
+
+Restr  15126 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15126> B  3       MWF    1130-1220  CMU </students/maps/map.cgi?CMU>  230      SOLOMYAK,BORIS             Open     46/  50                      
+
+
+*MATH   324  ADV MULTIVAR CALC 1 </students/crscat/math.html#math324>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15127 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15127> A  3       MWF    930-1020   LOW </students/maps/map.cgi?LOW>  106      STOUT,EDGAR L              Open     44/  50                      
+
+Restr  15128 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15128> B  3       MWF    1030-1120  LOW </students/maps/map.cgi?LOW>  106      STOUT,EDGAR L              Open     40/  50                      
+
+Restr  15129 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15129> C  3       MWF    1130-1220  MEB </students/maps/map.cgi?MEB>  103      WARNER,GARTH               Open     43/  50                      
+
+Restr  15130 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15130> D  3       MWF    1230-120   THO </students/maps/map.cgi?THO>  134      ARNOLD,TREVOR              Open     49/  50                      
+
+Restr  15131 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15131> E  3       MWF    130-220    THO </students/maps/map.cgi?THO>  135      ERICKSON,KENT B            Open     34/  50                      
+
+
+*MATH   326  ADV MULTIVAR CALC 2 </students/crscat/math.html#math326>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15132 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15132> A  3       MWF    1130-1220  MOR </students/maps/map.cgi?MOR>  234      ERICKSON,KENT B            Open     34/  40                      
+
+
+*MATH   327  INTRO REAL ANLYS I </students/crscat/math.html#math327>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15133 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15133> A  3       MWF    930-1020   SIG </students/maps/map.cgi?SIG>  227      SULLIVAN,JOHN B            Closed   43/  40                      
+
+
+*MATH   328  INTRO REAL ANLYS II </students/crscat/math.html#math328>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15134 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15134> A  3       MWF    1230-120   MEB </students/maps/map.cgi?MEB>  103      WARNER,GARTH               Open     38/  40                      
+
+
+*MATH   335  H-ACCEL ADVAN CALC </students/crscat/math.html#math335>*
+*(NW)*	*Prerequisites*
+
+       15135 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15135> A  5       MWF    1030-1120  SIG </students/maps/map.cgi?SIG>  228      MORROW,JAMES ALLEN         Open     21/  30                H     
+                        TTh    1030-1120  PDL </students/maps/map.cgi?PDL>  C036     MORROW,JAMES ALLEN
+
+
+*MATH   381  DISCRETE MATH MODEL </students/crscat/math.html#math381>*
+*(NW)*	*Prerequisites*
+
+      >15136 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15136> A  3       MWF    230-320    BNS </students/maps/map.cgi?BNS>  115      BILLEY,SARA                         31/  35                      
+
+
+*MATH   390  PROB STAT ENG SCI </students/crscat/math.html#math390>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15137 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15137> A  4       MWThF  230-320    SIG </students/maps/map.cgi?SIG>  134      MARZBAN,CAREN              Open     61/  60                J     
+                        FOR ENTRY CODES, PLEASE SEE                                                                                                                         
+                        INSTRUCTOR FIRST DAY OF CLASS                                                                                                                       
+
+Restr  15138 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15138> AA  QZ     T      830-920    CMU </students/maps/map.cgi?CMU>  B027     EVANS,ROBIN J.             Open     17/  15                J     
+
+Restr  15139 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15139> AB  QZ     T      930-1020   CMU </students/maps/map.cgi?CMU>  B027     EVANS,ROBIN J.             Open     15/  15                J     
+
+Restr  15140 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15140> AC  QZ     T      130-220    CMU </students/maps/map.cgi?CMU>  B027     KLIMOVA,ANNA               Closed   17/  15                J     
+
+Restr  15141 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15141> AD  QZ     T      230-320    CMU </students/maps/map.cgi?CMU>  B027     KLIMOVA,ANNA               Closed   12/  15                J     
+
+
+*MATH   394  PROBABILITY I </students/crscat/math.html#math394>*	*(NW)*
+*Prerequisites (cancellation in effect)*
+
+      >15142 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15142> A  3       MWF    830-920    EEB </students/maps/map.cgi?EEB>  045      SHORACK,GALEN                       41/  20                J     
+
+
+*MATH   395  PROBABILITY II </students/crscat/math.html#math395>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15143 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15143> A  3       MWF    830-920    THO </students/maps/map.cgi?THO>  325      THOMPSON,ELIZABETH A       Open     18/  20                J     
+
+Restr  15144 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15144> B  3       MWF    1030-1120  AND </students/maps/map.cgi?AND>  010      BURDZY,KRZYSZTOF           Open     30/  20                J     
+
+
+*MATH   398  SPECIAL TOPICS </students/crscat/math.html#math398>*	**	
+
+ IS   >15145 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15145> A  1-5     to be arranged    *    *                                             1/  30  CR/NC               
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+
+*MATH   403  INTRO MDRN ALGEBRA </students/crscat/math.html#math403>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15146 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15146> A  3       MWF    930-1020   SMI </students/maps/map.cgi?SMI>  407      COLLINGWOOD,DAVID          Closed   42/  40                      
+
+
+*MATH   407  LINEAR OPTIMIZATION </students/crscat/math.html#math407>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15148 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15148> A  3       MWF    930-1020   AND </students/maps/map.cgi?AND>  008      THOMAS,REKHA R.            Closed   42/  40                      
+
+
+*MATH   408  NONLINEAR OPTIMZTN </students/crscat/math.html#math408>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15149 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15149> A  3       MWF    1030-1120  AND </students/maps/map.cgi?AND>  008      THOMAS,REKHA R.            Closed   41/  40                      
+
+
+*MATH   412  INTRO MDRN ALG-TCHR </students/crscat/math.html#math412>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15150 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15150> A  3       MWF    130-220    SMI </students/maps/map.cgi?SMI>  404      COLLINGWOOD,DAVID          Open     25/  35                      
+                        MEETS IN SMI 405, 01-09-09 ONLY                                                                                                                     
+
+
+*MATH   421  CALC FOR TEACHERS </students/crscat/math.html#math421>*
+*(NW)*	*Prerequisites*
+
+Restr  15151 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15151> A  3       MWF    1130-1220  SMI </students/maps/map.cgi?SMI>  307      BUBE,KENNETH P.            Open     24/  25                      
+                        FOR STUDENTS INTERESTED IN TEACHING                                                                                                                 
+                        SECONDARY MATHEMATICS.                                                                                                                              
+
+
+*MATH   425  FUND CONCEPTS ANLYS </students/crscat/math.html#math425>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15152 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15152> A  3       MWF    1130-1220  BLM </students/maps/map.cgi?BLM>  411      CHEN,ZHEN-QING             Open     28/  30                J     
+
+
+*MATH   428  TOPS IN APPL ANLYS </students/crscat/math.html#math428>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15154 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15154> A  3       MWF    130-220    SMI </students/maps/map.cgi?SMI>  313      OSBORNE,MASON S            Open     22/  35                      
+                        MATH 427 REQUIRED                                                                                                                                   
+
+
+*MATH   442  DIFFERENTIAL GEOMETR </students/crscat/math.html#math442>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15155 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15155> A  3       MWF    1230-120   SIG </students/maps/map.cgi?SIG>  227      ARMS,JUDITH M              Open     21/  35                      
+                        MUST HAVE BE CURRENTLY ENROLLED IN                                                                                                                  
+                        MATH 441 OR HAVE PREVIOUSLY TAKEN -                                                                                                                 
+                        PLEASE SEE INSTRUCTOR FOR PERMISSIO                                                                                                                 
+                        IF YOU HAVEN'T TAKEN 441.                                                                                                                           
+
+
+*MATH   444  GEOMTRY FOR TEACHRS </students/crscat/math.html#math444>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15156 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15156> A  3       MWF    1030-1120  BNS </students/maps/map.cgi?BNS>  115      LEE,JOHN M                 Open     24/  35                      
+
+
+*MATH   462  COMBINATORIAL THEOR </students/crscat/math.html#math462>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15157 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15157> A  3       MWF    930-1020   SMI </students/maps/map.cgi?SMI>  305      MCGOVERN,WILLIAM M         Open     21/  40                      
+
+
+*MATH   465  NUMERICAL ANLYS II </students/crscat/math.html#math465>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  15158 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15158> A  3       MWF    930-1020   PDL </students/maps/map.cgi?PDL>  C401     GREENBAUM,ANNE             Open      5/  30                      
+
+
+*MATH   492  STOCH CALC OPTIONS </students/crscat/math.html#math492>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       15159 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15159> A  3       WF     1230-150   BLM </students/maps/map.cgi?BLM>  414      GNEITING,TILMANN J.        Open      9/  10                J     
+
+
+*MATH   496  HONORS SR THESIS </students/crscat/math.html#math496>*	*(NW)*	
+
+ IS   >15160 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15160> A  2-5     to be arranged    *    *                                             1/  20                H     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+
+*MATH   497  SPC TPCS MATH TCHRS </students/crscat/math.html#math497>*
+*(NW)*	
+
+      >15161 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15161> A  3       Th     430-650P   MEB </students/maps/map.cgi?MEB>  234      IRVING,RONALD S                     12/  20                J     
+
+
+*MATH   498  SPEC TOPICS IN MATH </students/crscat/math.html#math498>*	**	
+
+ IS   >15162 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15162> A  1-5     to be arranged    *    *                                             5/  30  CR/NC               
+                        FACULTY CODE: PDL C036                                                                                                                              
+
+       15163 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15163> B  1       Th     1230-150   PAA </students/maps/map.cgi?PAA>  A110     GNEITING,TILMANN J.        Open     27/  40  CR/NC               
+
+
+*MATH   505  MODERN ALGEBRA </students/crscat/math.html#math505>*	**	
+
+       15164 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15164> A  5       MWF    930-1020   PDL </students/maps/map.cgi?PDL>  C036     OSBORNE,MASON S            Open     15/  35                      
+
+
+*MATH   510  SEMINAR IN ALGEBRA </students/crscat/math.html#math510>*	**	
+
+       15166 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15166> A  2-5     to be arranged    *    *                                   Open      0/  20E CR/NC               
+
+       15167 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15167> B  2-5     to be arranged    *    *        KOVACS,SANDOR J            Open      1/  20E CR/NC               
+
+
+*MATH   522  ADV PROBABILITY </students/crscat/math.html#math522>*	**	
+
+       15168 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15168> A  3       MWF    1130-1220  PDL </students/maps/map.cgi?PDL>  C401     HOFFMAN,CHRISTOPHER        Open      6/  15                J     
+
+
+*MATH   525  REAL ANALYSIS </students/crscat/math.html#math525>*	**	
+
+       15169 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15169> A  5       MWF    1130-1220  PDL </students/maps/map.cgi?PDL>  C036     SMITH,HART F               Open     19/  35                      
+
+
+*MATH   530  SEMINAR IN ANALYSIS </students/crscat/math.html#math530>*	**	
+
+       15171 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15171> A  2-5     to be arranged    *    *                                   Open      0/  20E CR/NC               
+                        FUNCTIONAL ANALYSIS                                                                                                                                 
+
+       15172 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15172> B  2-5     M      330-450    GUG </students/maps/map.cgi?GUG>  416      UHLMANN,GUNTHER A.         Open      7/  20E CR/NC               
+                        P D E NUMERICAL ANALYSIS                                                                                                                            
+
+       15173 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15173> C  2-5     to be arranged    *    *        ROHDE,STEFFEN              Open      1/  20E CR/NC               
+                        COMPLEX ANALYSIS                                                                                                                                    
+
+       15174 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15174> D  2-5     to be arranged    *    *        THOMAS,REKHA R.            Open      1/  20E CR/NC               
+                        OPTIMIZATION                                                                                                                                        
+
+
+*MATH   535  COMPLEX ANALYSIS </students/crscat/math.html#math535>*	**	
+
+       15175 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15175> A  5       MWF    1030-1120  PDL </students/maps/map.cgi?PDL>  C036     MARSHALL,DONALD E          Open     17/  35                      
+
+
+*MATH   545  DIFFERENTIAL GEOM </students/crscat/math.html#math545>*	**	
+
+       15176 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15176> A  5       MWF    130-220    PDL </students/maps/map.cgi?PDL>  C036     MITCHELL,STEPHEN A.        Open     15/  35                      
+
+
+*MATH   550  SEMINAR IN GEOM </students/crscat/math.html#math550>*	**	
+
+       15177 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15177> A  2-5     to be arranged    *    *        LEE,JOHN M                 Open      0/  20E CR/NC               
+                        DIFFERENTIAL GEOMETRY                                                                                                                               
+
+       15178 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15178> B  2-5     to be arranged    *    *        BILLEY,SARA                Open      4/  20E CR/NC               
+                        GEOM & COMBINATORICS                                                                                                                                
+
+
+*MATH   558  INTRO PARTL DIFF EQ </students/crscat/math.html#math558>*	**	
+
+       15182 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15182> A  3       MWF    1230-120   PDL </students/maps/map.cgi?PDL>  C401     TORO,TATIANA               Open      9/  20                      
+
+
+*MATH   565  ALGEBRAIC TOPOLOGY </students/crscat/math.html#math565>*	**	
+
+       15183 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15183> A  3       MWF    230-320    PDL </students/maps/map.cgi?PDL>  C401     PALMIERI,JOHN              Open      8/  20                      
+
+
+*MATH   570  SEMINAR IN TOPOLOGY </students/crscat/math.html#math570>*	**	
+
+       15184 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15184> A  2-5     to be arranged    *    *        DEVINATZ,ETHAN S           Open      1/  20E CR/NC               
+                        TOPOLOGY                                                                                                                                            
+
+
+*MATH   575  FUND CONCEPTS ANLYS </students/crscat/math.html#math575>*	**	
+
+       15185 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15185> A  3       MWF    1130-1220  BLM </students/maps/map.cgi?BLM>  411      CHEN,ZHEN-QING             Open      5/  15                J     
+
+
+*MATH   580  CURRENT PROB SEM </students/crscat/math.html#math580>*	**	
+
+       15187 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15187> A  2       to be arranged    *    *        POLLACK,DANIEL             Open      1/  40                      
+
+      >15188 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15188> B  2       F      230-420    MGH </students/maps/map.cgi?MGH>  231                                           0/  60                      
+                        MATH DEPARTMENT SEMINAR                                                                                                                             
+
+
+*MATH   582  SPECIAL TOPICS </students/crscat/math.html#math582>*	**	
+
+       15189 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15189> A  3       MWF    930-1020   EEB </students/maps/map.cgi?EEB>  026      SMITH,SHOLTO PAUL          Open     13/  25                      
+
+       15190 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15190> B  3       MWF    930-1020   MOR </students/maps/map.cgi?MOR>  219      TSENG,PAUL YUN             Open     12/  15                      
+
+       15191 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15191> C  3       MWF    1030-1120  PDL </students/maps/map.cgi?PDL>  C401     NOVIK,ISABELLA             Open      5/  15                      
+
+       15192 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15192> D  3       MWF    1130-1220  MLR </students/maps/map.cgi?MLR>  302A     BILLEY,SARA                Open     10/  15                      
+
+       15193 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15193> E  3       MWF    130-220    PDL </students/maps/map.cgi?PDL>  C401     STEIN,WILLIAM A            Open     10/  20                      
+
+
+*MATH   590  SMNR PROBABILITY </students/crscat/math.html#math590>*	**	
+
+       15194 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15194> A  2-5     M      230-420    MGH </students/maps/map.cgi?MGH>  085      HOFFMAN,CHRISTOPHER        Open      1/  20E CR/NC               
+                        PROBABILITY                                                                                                                                         
+
+
+*MATH   597  SEMINAR ON TEACHING </students/crscat/math.html#math597>*	**	
+
+ IS   >15195 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15195> A  1       to be arranged    *    *                                             3/  25  CR/NC               
+
+
+*MATH   600  INDEPNDNT STDY/RSCH </students/crscat/math.html#math600>*	**	
+
+ IS   >15196 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15196> A  1-10    to be arranged    *    *                                            34/  50E                     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+ IS   >15197 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15197> B  2       to be arranged    *    *                                             0/  50E                     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+ IS   >15198 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15198> C  2       to be arranged    *    *                                             0/  50E                     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+
+*MATH   700  MASTERS THESIS </students/crscat/math.html#math700>*	**	
+
+ IS   >15199 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15199> A  1-10    to be arranged    *    *                                             2/  10E                     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+
+*MATH   800  DOCTORAL DISSERTATN </students/crscat/math.html#math800>*	**	
+
+ IS   >15200 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=WIN+2009&SLN=15200> A  1-10    to be arranged    *    *                                            35/  35E                     
+                        FACULTY CODE:  PDL C-36                                                                                                                             
+
+UW Logo <http://www.washington.edu/>
+Office of the University Registrar <http://registrar.washington.edu/>,
+206-543-5378
+registrar@u.washington.edu <mailto:registrar@u.washington.edu>
+Modified: March 27, 2009
+

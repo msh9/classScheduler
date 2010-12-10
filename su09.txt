@@ -1,0 +1,437 @@
+University of Washington <http://www.washington.edu/>
+ Search </home/search.html> | Directories </home/directories.html> |
+Reference Tools <http://www.lib.washington.edu/research/>
+UW Home </> > Discover UW </discover/> > Student Guide </students/> >
+Time Schedule </students/timeschd/> 
+| Summer 2009 Time Schedule </students/timeschd/SUM2009/>
+
+
+  Summer Quarter 2009 Time Schedule
+
+
+    MATHEMATICS
+    (COLLEGE OF ARTS & SCIENCES )
+
+
+	
+Enrollment and status (open/closed) were accurate when this page was
+created (*12:05 am September 29, 2009*) but may have changed since then.
+For current enrollment and status, check the Enrollment Summary
+<https://sdb.admin.washington.edu/timeschd/uwnetid/tsstat.asp?QTRYR=SUM+2009&CURRIC=MATH>.
+(UW NetID required.)
+
+Help with the UW Time Schedule </students/reg/tshelp/tshelp.html>
+
+*OVERLOAD POLICY - STUDENTS SHOULD NOT CONTACT THE * *INSTRUCTORS.
+OVERLOADS WILL BE AVAILABLE ON A * *LIMITED BASIS. PLEASE CONTACT THE
+MATH ADVISING * *OFFICE, 543-6830, C-36 PADELFORD, FOR MORE INFO. * *TO
+REGISTER FOR MATH 111, OR 120 STUDENTS * *WILL NEED A PLACEMENT TEST. TO
+REGISTER FOR MATH * *124, MOST STUDENTS WILL NEED EITHER A PLACEMENT *
+*TEST OR PREVIOUS COMPLETION OF MATH 120 (FORMERLY * *MATH 105) WITH A
+GRADE OF 2.5 OR HIGHER. STUDENTS * *CURRENTLY ENROLLED IN MATH 120 MAY
+REGISTER FOR * *MATH 124, BUT WILL BE DISENROLLED BY THE FIRST * *DAY OF
+CLASS IF THEY DO NOT COMPLETE MATH 120 WITH * *A GRADE OF 2.5 OR HIGHER.
+THE REQUIREMENTS ARE * *DESCRIBED IN THE SHEET "PLACEMENT REQUIREMENTS
+FOR * *MATH 107,111,120 OR 124" WHICH IS AVAILABLE AT * *UNDERGRADUATE
+ADVISING, 171 MARY GATES HALL OR * *MATH ADVISING, PDL C036. *
+
+*Enrl        Sect                                                                                             Crs
+Restr   SLN  ID Cred    Meeting Times     Bldg/Rm       Instructor                 Status Enrl/Lim   Grades  Fee Other
+ ? </students/reg/tshelp/restr.html>       ? </students/reg/tshelp/sln.html>       ? </students/reg/tshelp/cred.html>           ? </students/reg/tshelp/meetings.html>             ? </students/reg/tshelp/bldg.html>               ? </students/reg/tshelp/instr.html>                         ? </students/reg/tshelp/status.html>       ? </students/reg/tshelp/enrllim.html>         ? </students/reg/tshelp/grades.html>      ? </students/reg/tshelp/crsfee.html>    ? </students/reg/tshelp/other.html>*
+
+
+*MATH   111  ALGEBRA WITH APPL </students/crscat/math.html#math111>*
+*(NW,QSR)*	*Prerequisites (cancellation in effect)*
+
+Restr  11659 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11659> A  5       MWF    1050-1150  JHN </students/maps/map.cgi?JHN>  022      PATROLIA,LEE               Open     23/  35                      
+                        TTh    1050-1150  EEB </students/maps/map.cgi?EEB>  003      SLIVKEN,ERIK D.
+                        Full-term                                                                                                                                           
+
+
+*MATH   120  PRECALCULUS </students/crscat/math.html#math120>*	*(NW)*
+*Prerequisites (cancellation in effect)*
+
+Restr  11661 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11661> A  5       MWF    1200-100   BNS </students/maps/map.cgi?BNS>  203      PONG,TING KEI              Closed   26/  25                      
+                        TTh    1200-100   BNS </students/maps/map.cgi?BNS>  203      WU,MIN
+                        Full-term                                                                                                                                           
+
+Restr  11662 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11662> B  5       MWF    940-1040   GUG </students/maps/map.cgi?GUG>  204      KORSON,MATTHEW J           Open     22/  25                      
+                        TTh    940-1040   MEB </students/maps/map.cgi?MEB>  248      PAQUETTE,ELLIOT
+                        Full-term                                                                                                                                           
+
+Restr  11663 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11663> C  5       MWF    1050-1150  BNS </students/maps/map.cgi?BNS>  117      WANG,DAKE                  Open     18/  25                      
+                        TTh    1050-1150  MEB </students/maps/map.cgi?MEB>  248      PAQUETTE,ELLIOT
+                        Full-term                                                                                                                                           
+
+
+*MATH   124  CALC ANALYT GEOM I </students/crscat/math.html#math124>*
+*(NW,QSR)*	*Prerequisites (cancellation in effect)*
+
+Restr  11665 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11665> A  5       MWF    110-210    PAA </students/maps/map.cgi?PAA>  A214     ZHUANG,GUANGBIN            Open     14/  35                      
+                        TTh    110-210    SIG </students/maps/map.cgi?SIG>  225      WARD,MATTHEW
+                        Full-term                                                                                                                                           
+
+Restr  11666 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11666> B  5       MWF    940-1040   SMI </students/maps/map.cgi?SMI>  313      DEINES,ALYSON L            Open     22/  35                      
+                        TTh    940-1040   BLM </students/maps/map.cgi?BLM>  408      AHOLT,CHRISTOPHER C.
+                        Full-term                                                                                                                                           
+
+Restr  11667 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11667> C  5       MWF    1050-1150  GUG </students/maps/map.cgi?GUG>  204      BOUVIER,GEORGE N           Open     30/  35                      
+                        TTh    1050-1150  BLM </students/maps/map.cgi?BLM>  408      AHOLT,CHRISTOPHER C.
+                        Full-term                                                                                                                                           
+
+Restr  11668 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11668> D  5       MWF    1200-100   MLR </students/maps/map.cgi?MLR>  316      APONTE-ROMAN,CAMIL I.      Open     25/  35                      
+                        TTh    1200-100   SIG </students/maps/map.cgi?SIG>  228      WARD,MATTHEW
+                        Full-term                                                                                                                                           
+
+
+*MATH   125  CALC ANALYT GEOM II </students/crscat/math.html#math125>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11669 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11669> A  5       MWF    110-210    SIG </students/maps/map.cgi?SIG>  228      GRIGG,NATHAN               Open     24/  35                      
+                        TTh    110-210    SIG </students/maps/map.cgi?SIG>  227      LOU,SHUWEN
+                        Full-term                                                                                                                                           
+
+Restr  11670 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11670> B  5       MWF    940-1040   EEB </students/maps/map.cgi?EEB>  003      ZHANG,JUN                  Open     24/  30                      
+                        TTh    940-1040   MEB </students/maps/map.cgi?MEB>  103      SPREHN,DAVID W.
+                        Full-term                                                                                                                                           
+
+Restr  11671 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11671> C  5       MWF    1050-1150  MEB </students/maps/map.cgi?MEB>  246      WILLSE,TRAVIS J.           Open     23/  30                      
+                        TTh    1050-1150  MEB </students/maps/map.cgi?MEB>  103      SPREHN,DAVID W.
+                        Full-term                                                                                                                                           
+
+Restr  11672 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11672> D  5       MWF    1200-100   SIG </students/maps/map.cgi?SIG>  228      SURYANARAYAN,SWETA         Open     24/  25                      
+                        TTh    1200-100   SIG </students/maps/map.cgi?SIG>  230      LOU,SHUWEN
+                        Full-term                                                                                                                                           
+
+
+*MATH   126  CALC ANYL GEOM III </students/crscat/math.html#math126>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11673 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11673> A  5       MWF    110-210    SIG </students/maps/map.cgi?SIG>  227      HUBENTHAL,JOHN             Open     32/  45                      
+                        TTh    110-210    BLM </students/maps/map.cgi?BLM>  413      BARNES,JOEL W.
+                        Full-term                                                                                                                                           
+
+Restr  11674 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11674> B  5       MWF    940-1040   BLM </students/maps/map.cgi?BLM>  413      CHIECCHIO,ALBERTO          Open     34/  45                      
+                        TTh    940-1040   MEB </students/maps/map.cgi?MEB>  246      FAN,WAI TONG
+                        Full-term                                                                                                                                           
+
+Restr  11675 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11675> C  5       MWF    1050-1150  CMU </students/maps/map.cgi?CMU>  B006     SISODIA,GAUTAM             Open     38/  45                      
+                        TTh    1050-1150  MEB </students/maps/map.cgi?MEB>  246      FAN,WAI TONG
+                        Full-term                                                                                                                                           
+
+Restr  11676 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11676> D  5       MWF    1200-100   CMU </students/maps/map.cgi?CMU>  230      WANG,XINGTING              Open     39/  45                      
+                        TTh    1200-100   BLM </students/maps/map.cgi?BLM>  413      BARNES,JOEL W.
+                        Full-term                                                                                                                                           
+
+
+*MATH   170  MATH ELEM SCH TEACH </students/crscat/math.html#math170>*
+*(NW)*	
+
+       11677 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11677> A  3       MW     1200-140   MEB </students/maps/map.cgi?MEB>  103      LIND,JOAN                  Open     27/  35  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   198  SPECIAL TOPICS </students/crscat/math.html#math198>*	**	
+
+ IS   >11678 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11678> A  1-5     to be arranged                                                       0/  20  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   300  MATH REASONING </students/crscat/math.html#math300>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11679 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11679> A  3       MWF    940-1040   LOW </students/maps/map.cgi?LOW>  220      LOVELESS,ANDREW            Open     25/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11680 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11680> B  3       MWF    1050-1150  LOW </students/maps/map.cgi?LOW>  202      LOVELESS,ANDREW            Closed   31/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11681 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11681> C  3       MWF    1200-100   EEB </students/maps/map.cgi?EEB>  042      BEKYEL,EBRU                Open     15/  30                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   301  ELEM NUMBER THEORY </students/crscat/math.html#math301>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11682 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11682> A  3       TTh    1050-1230  ART </students/maps/map.cgi?ART>  003      KOBLITZ,NEAL I             Open     28/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   307  INTRO TO DIFF EQ </students/crscat/math.html#math307>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11683 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11683> A  3       MWF    940-1040   EEB </students/maps/map.cgi?EEB>  031      BEKYEL,EBRU                Open     27/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11684 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11684> B  3       MWF    1050-1150  EEB </students/maps/map.cgi?EEB>  031      BEKYEL,EBRU                Open     25/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11685 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11685> C  3       MWF    1200-100   SIG </students/maps/map.cgi?SIG>  230      TITTELFITZ,JUSTIN          Open     26/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11686 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11686> D  3       TTh    630-750P   BLM </students/maps/map.cgi?BLM>  304      CARD,RYAN                  Open     29/  30                      
+                        Full-term                                                                                                                                           
+
+Restr  11687 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11687> E  3       MWF    940-1040   CMU </students/maps/map.cgi?CMU>  230      TOKLE,JOSHUA               Open     23/  30                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   308  MATRIX ALGEBRA </students/crscat/math.html#math308>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11688 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11688> A  3       MWF    220-320    SIG </students/maps/map.cgi?SIG>  227      SMITH,SHOLTO PAUL          Open     21/  27                      
+                        Full-term                                                                                                                                           
+
+Restr  11689 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11689> B  3       MWF    940-1040   DEN </students/maps/map.cgi?DEN>  212      LITTIG,PETER J.            Open     24/  27                      
+                        Full-term                                                                                                                                           
+
+Restr  11690 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11690> C  3       MWF    1050-1150  DEN </students/maps/map.cgi?DEN>  212      LITTIG,PETER J.            Open     20/  25                      
+                        Full-term                                                                                                                                           
+
+Restr  11691 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11691> D  3       MWF    1200-100   SMI </students/maps/map.cgi?SMI>  115      GILL,BRIAN T.              Open     20/  27                      
+                        Full-term                                                                                                                                           
+
+Restr  11692 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11692> E  3       MWF    110-210    SIG </students/maps/map.cgi?SIG>  230      SMITH,SHOLTO PAUL          Open     16/  27                      
+                        Full-term                                                                                                                                           
+
+Restr  11693 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11693> F  3       MWF    1050-1150  SMI </students/maps/map.cgi?SMI>  115      GILL,BRIAN T.              Open     20/  27                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   309  LINEAR ANALYSIS </students/crscat/math.html#math309>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11694 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11694> A  3       MWF    940-1040   MEB </students/maps/map.cgi?MEB>  103      DUNDON,ARIANA F            Open     29/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   324  ADV MULTIVAR CALC 1 </students/crscat/math.html#math324>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11695 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11695> A  3       MWF    940-1040   SIG </students/maps/map.cgi?SIG>  224      SULLIVAN,DAVID MARK        Open     23/  35                      
+                        Full-term                                                                                                                                           
+
+Restr  11696 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11696> B  3       MWF    1050-1150  GLD </students/maps/map.cgi?GLD>  322      EATON,JULIA R.             Open     21/  35                      
+                        Full-term                                                                                                                                           
+
+Restr  11697 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11697> C  3       MWF    1200-100   SMI </students/maps/map.cgi?SMI>  309      WILSON,SAMUEL D.           Open     26/  35                      
+                        Full-term                                                                                                                                           
+
+Restr  11698 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11698> D  3       MWF    110-210    SMI </students/maps/map.cgi?SMI>  115      LEWIS,JACOB                Open     17/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   326  ADV MULTIVAR CALC 2 </students/crscat/math.html#math326>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11699 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11699> A  3       MWF    940-1040   MEB </students/maps/map.cgi?MEB>  246      GUTZWILLER,LUKE            Open     28/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   327  INTRO REAL ANLYS I </students/crscat/math.html#math327>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11700 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11700> A  3       MWF    1050-1150  MEB </students/maps/map.cgi?MEB>  248      WARNER,GARTH               Open     22/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   328  INTRO REAL ANLYS II </students/crscat/math.html#math328>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11701 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11701> A  3       MWF    1200-100   MEB </students/maps/map.cgi?MEB>  248      WARNER,GARTH               Open     27/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   381  DISCRETE MATH MODEL </students/crscat/math.html#math381>*
+*(NW)*	*Prerequisites*
+
+Restr  13729 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=13729> A  3       MWF    940-1040   JHN </students/maps/map.cgi?JHN>  111      WHITE,DAVID W              Open     26/  30                W     
+                        Full-term                                                                                                                                           
+
+
+*MATH   390  PROB STAT ENG SCI </students/crscat/math.html#math390>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+       11702 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11702> A  4       MTWTh  940-1040   MUE </students/maps/map.cgi?MUE>  153      KRIVITSKY,PAVEL N.         Open     29/  30                J     
+                        Full-term                                                                                                                                           
+
+       11703 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11703> AA  QZ     T      1200-100   CMU </students/maps/map.cgi?CMU>  B027     MARAVINA,TATIANA           Closed   15/  15                J     
+                        Full-term                                                                                                                                           
+
+       11704 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11704> AB  QZ     T      110-210    CMU </students/maps/map.cgi?CMU>  B027     MARAVINA,TATIANA           Open     14/  15                J     
+                        Full-term                                                                                                                                           
+
+
+*MATH   394  PROBABILITY I </students/crscat/math.html#math394>*	*(NW)*
+*Prerequisites (cancellation in effect)*
+
+Restr  11705 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11705> A  3       MWF    830-1040   CMU </students/maps/map.cgi?CMU>  B006     DERBY,NATHANIEL            Open     18/  25                J     
+                        A-term                                                                                                                                              
+
+Restr  11706 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11706> B  3       MWF    1050-1150  MEB </students/maps/map.cgi?MEB>  103      WHITE,DAVID W              Open     32/  20                J     
+                        Full-term                                                                                                                                           
+
+
+*MATH   395  PROBABILITY II </students/crscat/math.html#math395>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11707 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11707> A  3       MWF    830-1040   CMU </students/maps/map.cgi?CMU>  B006     DERBY,NATHANIEL            Open     15/  25                J     
+                        B-term                                                                                                                                              
+
+
+*MATH   398  SPECIAL TOPICS </students/crscat/math.html#math398>*	**	
+
+ IS   >11708 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11708> A  1-5     to be arranged                                                       0/  20  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   402  INTRO MDRN ALGEBRA </students/crscat/math.html#math402>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11709 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11709> A  3       MWF    1050-1150  MEB </students/maps/map.cgi?MEB>  237      COLLINGWOOD,DAVID          Open     16/  30                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   407  LINEAR OPTIMIZATION </students/crscat/math.html#math407>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11710 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11710> A  3       MWF    940-1040   BNS </students/maps/map.cgi?BNS>  203      ROSOFF,DAVID               Open     27/  30                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   411  INTRO MDRN ALG-TCHR </students/crscat/math.html#math411>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11711 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11711> A  3       MWF    830-1040   BLM </students/maps/map.cgi?BLM>  207      SULLIVAN,JOHN B            Open     23/  35                      
+                        A-term                                                                                                                                              
+
+
+*MATH   412  INTRO MDRN ALG-TCHR </students/crscat/math.html#math412>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11712 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11712> A  3       MWF    830-1040   MEB </students/maps/map.cgi?MEB>  251      SULLIVAN,JOHN B            Open     21/  30                      
+                        B-term                                                                                                                                              
+
+
+*MATH   420  HISTORY OF MATH </students/crscat/math.html#math420>*
+*(NW)*	*Prerequisites*
+
+Restr  11713 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11713> A  3       TTh    830-1010   ART </students/maps/map.cgi?ART>  003      KOBLITZ,NEAL I             Open     26/  35                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   441  TOPOLOGY </students/crscat/math.html#math441>*	*(NW)*
+*Prerequisites (cancellation in effect)*
+
+Restr  11714 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11714> A  3       MWF    1050-1150  LOW </students/maps/map.cgi?LOW>  219      NICHIFOR,ALEXANDRA         Open      9/  15                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   444  GEOMTRY FOR TEACHRS </students/crscat/math.html#math444>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11715 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11715> A  3       MWF    1050-100   LOW </students/maps/map.cgi?LOW>  106      LEE,JOHN M                 Open     19/  35                      
+                        A-term                                                                                                                                              
+
+
+*MATH   445  GEOMTRY FOR TEACHRS </students/crscat/math.html#math445>*
+*(NW)*	*Prerequisites (cancellation in effect)*
+
+Restr  11716 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11716> A  3       MWF    1050-100   GUG </students/maps/map.cgi?GUG>  218      LEE,JOHN M                 Open     10/  30                      
+                        B-term                                                                                                                                              
+
+
+*MATH   496  HONORS SR THESIS </students/crscat/math.html#math496>*	*(NW)*	
+
+ IS   >11717 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11717> A  1-5     to be arranged                                                       0/  20                      
+                        Full-term                                                                                                                                           
+
+
+*MATH   498  SPEC TOPICS IN MATH </students/crscat/math.html#math498>*	**	
+
+ IS   >11718 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11718> A  1-5     to be arranged                                                       0/  50                      
+                        Full-term                                                                                                                                           
+                        INSTRUCTOR I.D. PDL C036                                                                                                                            
+
+
+*MATH   510  SEMINAR IN ALGEBRA </students/crscat/math.html#math510>*	**	
+
+       11720 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11720> A  3       W      230-420    PDL </students/maps/map.cgi?PDL>  C036     SULLIVAN,JOHN B            Open      9/  75  CR/NC               
+                        Full-term                                                                                                                                           
+                        ALGEBRA PRELIM PREP                                                                                                                                 
+
+       11721 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11721> B  2       T      220-320    LOW </students/maps/map.cgi?LOW>  217      KOVACS,SANDOR J            Open      2/  35  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   530  SEMINAR IN ANALYSIS </students/crscat/math.html#math530>*	**	
+
+       11722 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11722> A  3       Th     230-420    PDL </students/maps/map.cgi?PDL>  C036     TORO,TATIANA               Open      9/  75  CR/NC               
+                        Full-term                                                                                                                                           
+                        REALS PRELIM PREP                                                                                                                                   
+
+       11723 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11723> B  3       F      230-420    PDL </students/maps/map.cgi?PDL>  C036     HOFFMAN,CHRISTOPHER        Open      9/  75  CR/NC               
+                        Full-term                                                                                                                                           
+                        COMPLEX PRELIM PREP                                                                                                                                 
+
+       11724 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11724> C  3       M      230-420    PDL </students/maps/map.cgi?PDL>  C036     UHLMANN,GUNTHER A.         Open      2/  75  CR/NC               
+                        Full-term                                                                                                                                           
+                        LINEAR PRELIM PREP                                                                                                                                  
+
+
+*MATH   550  SEMINAR IN GEOM </students/crscat/math.html#math550>*	**	
+
+       11725 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11725> A  3       T      230-420    PDL </students/maps/map.cgi?PDL>  C036     LEE,JOHN M                 Open     11/  75  CR/NC               
+                        Full-term                                                                                                                                           
+                        MANIFOLDS PRELIM PREP                                                                                                                               
+
+
+*MATH   580  CURRENT PROB SEM </students/crscat/math.html#math580>*	**	
+
+       11726 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11726> A  2       to be arranged                  POLLACK,DANIEL             Open      2/  75  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   597  SEMINAR ON TEACHING </students/crscat/math.html#math597>*	**	
+
+ IS   >11727 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11727> A  1       to be arranged                                                      13/  20  CR/NC               
+                        Full-term                                                                                                                                           
+
+ IS   >11728 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11728> B  1       to be arranged                                                       5/  20  CR/NC               
+                        Full-term                                                                                                                                           
+
+
+*MATH   600  INDEPNDNT STDY/RSCH </students/crscat/math.html#math600>*	**	
+
+ IS   >11729 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11729> A  1-10    to be arranged                                                      13/  75                      
+                        Full-term                                                                                                                                           
+                        INSTRUCTOR CODE PDL.C036                                                                                                                            
+
+ IS   >11730 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11730> B  1-10    to be arranged                                                       0/  75                      
+                        A-term                                                                                                                                              
+                        INSTRUCTOR CODE PDL.C036                                                                                                                            
+
+ IS   >11731 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11731> C  1-10    to be arranged                                                       0/  75                      
+                        B-term                                                                                                                                              
+                        INSTRUCTOR CODE PDL.C036                                                                                                                            
+
+
+*MATH   700  MASTERS THESIS </students/crscat/math.html#math700>*	**	
+
+ IS   >11732 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11732> A  1-10    to be arranged                                                       1/  10                      
+                        Full-term                                                                                                                                           
+                        INSTRUCTOR CODE PDL.C036                                                                                                                            
+
+
+*MATH   800  DOCTORAL DISSERTATN </students/crscat/math.html#math800>*	**	
+
+ IS   >11733 <https://sdb.admin.washington.edu/timeschd/uwnetid/sln.asp?QTRYR=SUM+2009&SLN=11733> A  1-10    to be arranged                                                      30/  40                      
+                        Full-term                                                                                                                                           
+                        INSTRUCTOR CODE PDL.C036                                                                                                                            
+
+UW Logo <http://www.washington.edu/>
+Office of the University Registrar <http://registrar.washington.edu/>,
+206-543-5378
+registrar@u.washington.edu <mailto:registrar@u.washington.edu>
+Modified: September 29, 2009
+
