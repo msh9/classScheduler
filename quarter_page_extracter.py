@@ -32,7 +32,7 @@ def main(args):
     lines = open(args[1], 'r').readlines()
     classes = {}
     # prepare regular expressions
-    math_class = re.compile(r"^\*?MATH\s+(\d\d\d).*\*")
+    math_class = re.compile(r"^\*?MATH\s+(\d\d\d).*<.*>\*")
     main_section = re.compile(r"(\d{5})\s<.*>\s(\w)\s+(\d)\s+(\w{1,6})\s+(\d{3,4})-(\d{3,4})")
     qz_section = re.compile(r"(\d{5})\s<.*>\s(\w\w)\s+QZ\s+(\w{1,6})\s+(\d{3,4})-(\d{3,4})")
     curr_class = 0
@@ -43,6 +43,7 @@ def main(args):
         qz_section_match = qz_section.search(line)
         # priority one is switching the current class
         if math_class_match is not None:
+            print("Matched "+math_class_match.group(1))
             curr_class = int(math_class_match.group(1))
         elif main_section_match is not None:
             curr_sec = offering(main_section_match.group(1),
