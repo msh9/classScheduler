@@ -1,7 +1,43 @@
 """python module that defines class objects
 """
 
-class Class:
+class Course:
+    """A course satisfies prerequisites but does not occur during a specific
+    time period. The Class object is a course that occurs during a specific
+    quarter
+    """
+
+    def __init__(self, name, credits, offered):
+        """We define a course, this consists of the number of
+        credis, the name, and when it is offered
+
+        Returns: A Course object
+        """
+        self.credits = credits
+        self.name = name
+        self.offered = offered
+
+    def __str__(self):
+        return self.name
+
+    def __repr__(self):
+        return " ".join([self.name,repr(self.credits),repr(self.offered)])
+
+    def __eq__(self, other):
+        return self.name == other.name 
+    
+    def __ne__(self,other):
+        return not self.__eq__(self,other)
+
+    def __hash_(self):
+        val = hash(self.name)
+        val += self.credits
+        for of in self.offered:
+            if of == 1:
+                val += 7
+        return val
+
+class Class(Course):
     """Defines a class object that is used in the rest
     of the scheduler. The class at the least has time, credits, qtr offered,
     and name attributes. Other possible attributes are prereq for and prereq
@@ -9,24 +45,23 @@ class Class:
     attributes should be enough to uniquely id a class
     """
     
-    def __init__(self, time, credits, offered, name):
+    def __init__(self, time, offered, section, sln, course):
         """Initializer for the class object
         Arguments:
-            Time: A dictionary of lists of datetime objects that define what times during the
-            week a class is offered. The dictionary is indexed by quarter, 'winter','spring',...
-            The lists are formed from start and end times and should therefore be some multiple
-            of two items long.
-            Credits: An integer defining the number of credits
-            Offered: A 4 item boolean tuple, either true or false in order of
-            quarters offered F,W,Sp,S
+            Time: A three tuple (t_begin,t_end)
+            Offered: An integer 0-3: 0 = fall,1=winter,2=spring,3=summer
             Name: A string, the name of the class
+            Section: A string letter code for the section of the class, this doesn't
+            need to be specified
+            Sln: schedule identifier number
+            course: A Course ojbect indicate what this class is
         Returns: A Class object
         """
-        
         self.time = time
-        self.credits = credits
         self.offered = offered
-        self.name = name
+        self.section = section
+        self.sln = sln    
+    	self.children = 0
     
     # below we define string operations
     def __str__(self):
@@ -49,7 +84,7 @@ class Class:
         
         if isinstance(other,Class):
             return (self.name != other.name or self.time != other.time or 
-                self.offered != other.offered)
+                self.offered != other.offered or self.section != other.section)
         else:
             return True
     
@@ -75,13 +110,16 @@ class Class:
         c_mult = lambda a,b: eval(hex((a * b) & 0xFFFFFFFF)[:-1])
         
         hash_val = hash(self.name)
-        for d in self.time:
+        for d in self.time.values():
             hash_val += hash(d)
         for qtr in self.offered:
             if qtr:
                 hash_val = c_mult(hash_val, 19)
-        hash_val += hash(self.name)
+        hash_val += hash(self.name) + hash(self.section)
         return hash_val
+
+    def set_children(self,children):
+        self.children = children
         
 class PrerequisiteNode(Class):
     """Defines a node in the prerequsite tree

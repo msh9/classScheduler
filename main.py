@@ -4,6 +4,9 @@ and prerequisite information"""
 from optparse import OptionParser
 import os.path
 import Class
+import csv
+import datetime
+import re
 
 def get_options():
     """Uses an OptionParser to parse command line options
@@ -100,24 +103,45 @@ def main():
     quarters = ['fall','winter','spring']
     if 'summer' in files.keys():
         quarters.append('summer')
-    all_classes = {}
-    i = 0 
+    quarter_classes = {} # qtr->[list of classes]
+    base_courses = set()
+    i = 0
     for qtr in quarters:
-        for line in files[qtr]:
-            (cls, credits) = line.split(':')
+        # read file in using cvs reader
+        # assume the file has a header which names the field names for each column
+        # name,sln,section,days,time_begin,time_end
+        reader = csv.DictReader(files[qtr],newline='')
+        for row in reader:
+            # each row is a dictionary with the above keys (provided the file was formatted
+            # correctly
+            t_begin = datetime.time(row['time_begin'][0:2],row['time_begin'][2:4])
+            t_end = datetime.time(row['time_end'][0:2],row['time_end'][2:4])
+            result = re.match("(M)(T)(W)(Th)(F)",row['days'])
+            days = set(result.groups)
+            if (
+            c = Class.Class((t_begin,t_end),int(row['credits']),i,row['name'],
+                row['section'],int(row['sln']))
             try:
-                # subscript madness: cls indexes into the dictionary by the class name key,
-                # then we index into the first item in the list, and then finally index into
-                # the offered tuple by quarter i
-                all_classes[cls.strip().upper()][0][i] = True
-            except KeyError:
-                offered = [False,False,False,False]
-                offered[i] = True
-                all_classes[cls.strip().upper()] = [offered, int(credits)]
-            else:
-                 
-                all_classes[cls][0][i] = True
-        i += 1
+                quarter_classes[qtr].append(c)
+            except Exception:
+                quarter_classes[qtr] = [c]
+    #
+    # i = 0 
+    # for qtr in quarters:
+        # for line in files[qtr]:
+            # (cls, credits) = line.split(':')
+            # try:
+                # # subscript madness: cls indexes into the dictionary by the class name key,
+                # # then we index into the first item in the list, and then finally index into
+                # # the offered tuple by quarter i
+                # all_classes[cls.strip().upper()][0][i] = True
+            # except KeyError:
+                # offered = [False,False,False,False]
+                # offered[i] = True
+                # all_classes[cls.strip().upper()] = [offered, int(credits)]
+            # else:
+                # all_classes[cls][0][i] = True
+        # i += 1
     # now we have the set of all classes offered we go over the prereq file for
     # information of class prerequisites
     class_prereqs = {}
