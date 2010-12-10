@@ -334,8 +334,8 @@ we don't take } X_i \end{array} \right. $
     \item Let $m = \|L\|$.  
 \end{itemize} 
 We now state our problem as follows: 
-Maximize: 
 
+Maximize: 
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
     \label{qtr_val}
@@ -389,13 +389,10 @@ a dummy node without loss of generality holds. We can now conveniently write the
 class picking problem as the knapsack with conflict graphs problem (KCG): 
 
 Maximize:
-
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
 \end{equation}
-
 Subject To: 
-
 \begin{equation}
 \sum_{i=1}^m Weight(c_i) * X_i \leq l,
 \end{equation}
@@ -406,6 +403,11 @@ X_i + X_j \leq 1 \text{ for all connected vertices } i, j \in G_{conflict},
 
 \begin{equation}
 X_i \in \{0, 1\}
+\end{equation}
+
+\begin{equation}
+   X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{and} X_j \text{ are offerings of
+   the same course}
 \end{equation}
 
 For versions of this problem in the low hundreds of variables it is possible 
