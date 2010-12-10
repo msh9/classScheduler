@@ -322,31 +322,39 @@ $q$ is the current quarter, and $\alpha$, $\beta$, and $\gamma$ are real
 numbers, giving a weight to piece of the heuristic. The scalars are determined
 experimentally.
 
-\subsubsection{Formulation as Binary Integer Program} We can now formulate our
-problem as a binary linear programming problem. Before stating the linear
-program, we must first define some variables used in it: \\ \begin{itemize}
-\item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
-we don't take } X_i \end{array} \right. $ \item For all $t \in O$, we let $t
-= 1$.  \item Let $m = \|L\|$.  \end{itemize} We now state our problem as
-follows:
+\subsubsection{Formulation as Binary Integer Program} We can now formulate
+a binary linear programming problem. Before stating the linear
+program, we must first define some variables used in it: 
+
+\begin{itemize}
+    \item $ X_i = \left\{ \begin{array}{lr} 1 \text{ if we take } X_i\\ 0 \text{ if
+we don't take } X_i \end{array} \right. $ 
+    \item For all $t \in O$, we let $t$ represent the conflict graph of classes
+    at time period $t$.
+    \item Let $m = \|L\|$.  
+\end{itemize} 
+We now state our problem as follows: 
 
 Maximize: 
-
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
     \label{qtr_val}
 \end{equation}
-
-Subject To: 
-
+Subject To:
 \begin{equation}
-    \sum_{i=1}^m Weight(c_i) * X_i \leq l, \forall t_j \in O,
+    \sum_{i=1}^m Weight(c_i) * X_i \leq l, 
     \label{weight_lim}
 \end{equation}
 
 \begin{equation}
-    \sum_{i=1}^m t_j * X_i \leq 1, X_i \in \{0, 1\}
+    \forall t \in O,X_i+X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \in t
     \label{time_con}
+\end{equation}
+
+\begin{equation}
+   X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{and} X_j \text{ are offerings of
+   the same course}
+    \label{course_con}
 \end{equation}
 
 The linear program
@@ -358,7 +366,7 @@ or not taken. In other words, decision variables are binary.  \item Each
 non-zero decision variable in the optimal solution represents a class we will
 take.  \end{itemize}
 
-Each of the equations based on eqn. 2 ensure that we only take one class per 
+Each of the equations based on eqn.~\ref{time_con} ensure that we only take one class per 
 time period per day. Also this linear program is ‘nice’ in that it always has 
 feasible origin (don’t take any classes), and that the simplest formulation 
 is already in standard form.
@@ -381,13 +389,10 @@ a dummy node without loss of generality holds. We can now conveniently write the
 class picking problem as the knapsack with conflict graphs problem (KCG): 
 
 Maximize:
-
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
 \end{equation}
-
 Subject To: 
-
 \begin{equation}
 \sum_{i=1}^m Weight(c_i) * X_i \leq l,
 \end{equation}
@@ -398,6 +403,11 @@ X_i + X_j \leq 1 \text{ for all connected vertices } i, j \in G_{conflict},
 
 \begin{equation}
 X_i \in \{0, 1\}
+\end{equation}
+
+\begin{equation}
+   X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{and} X_j \text{ are offerings of
+   the same course}
 \end{equation}
 
 For versions of this problem in the low hundreds of variables it is possible 
@@ -440,4 +450,3 @@ examine what parameters in our heuristic function produce the most desirable
 schedules.
 
 \bibliography{paper_references}{} \bibliographystyle{plain} \end{document}
- 
