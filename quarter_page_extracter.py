@@ -45,6 +45,7 @@ def main(args):
         if math_class_match is not None:
             print("Matched "+math_class_match.group(1))
             curr_class = int(math_class_match.group(1))
+        # next pri is switching the offered sections of a course
         elif main_section_match is not None:
             curr_sec = offering(main_section_match.group(1),
                 main_section_match.group(2),main_section_match.group(3),
@@ -54,6 +55,7 @@ def main(args):
                 classes[curr_class].update({curr_sec:[]})
             except KeyError:
                 classes[curr_class] = {curr_sec:[]}
+        # finally we consider the qz sections offered
         elif qz_section_match is not None:
             curr_qz = offering(qz_section_match.group(1),
                 qz_section_match.group(2),0,
