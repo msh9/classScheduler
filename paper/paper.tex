@@ -60,31 +60,33 @@
 \begin{document}
 \maketitle
 
-\abstract{The Bachelor's Degree is designed to take four years to complete,
-however, many students fail to complete it this amount of time. One 
+\abstract{The Bachelor's Degree is designed to take four years to complete;
+however, many students fail to complete it in this time frame. One 
 factor contributing to this is poor planning when registering for classes.
-We present an algorithm to assist students in
-constructing a schedule that works towards completing a degree in the shortest
-amount of time possible.}
+We present an algorithm to assist students in constructing a schedule 
+that works towards completing a degree in the shortest amount of time 
+possible. The algorithm presented uses heurisitics to attempt to pick the best
+class set each quarter, working towards a complete schedule quartery by 
+quarter.}
 \pagebreak
 
 
-\section{Introduction} \subsection{Background} Registration can be a stressful
-time for every student at the University of Washington. Without good
-planning, students can make poor registration choices resulting in more quarter
-being needed to graduate than otherwise necessary. Picking the correct class
-involves considering quarterly class offerings, class credits, the prerequisites
-of a class, time conflicts, and how to fulfill future prerequisites. The
-University of Washington registration system already provides a tool to aid
-students, schedule finder. Schedule finder however, only takes into account time
-conflicts in one quarter, and does not consider what classes are best for
-minimizing graduation time.
-
-A student's graduation time may be extended because of his or her inability to
-take a class that has limited offerings during that particular year.
+\section{Introduction} \subsection{Background} Registration can be a stressful 
+time for students at the University of Washington. Without proper planning, 
+a student can run the risk of making poor registration choices, which can 
+result in the student taking more quarters than otherwise necessary. However, 
+choosing the right schedule is complex and there are multiple variables to 
+consider. Picking classes involves the consideration of quarterly class 
+offerings, class credits, prerequisites, time conflicts, and whether or not 
+classes will fulfill future prerequisites. All of these factors can affect a 
+student’s graduation time, especially if that class has limited offerings 
+during a particular year. The University of Washington registration system 
+already provides a tool to aid students: schedule finder. However, schedule 
+finder only takes into account time conflicts per quarter, and not what 
+classes are best for minimizing graduation time. 
 
 \subsection{Goal} Our goal is to provide an automated system that gives quarter
-by quarter schedules until a student graduates. As input our system will take in
+by quarter schedules up until graduates. As input our system will take in
 the current set of classes a student has taken and the preferred credit hours
 per quarter. Additional input will be the current and past university time
 schedules. As output our system will provide a class schedule that minimizes the
@@ -101,15 +103,15 @@ quarters. The university also benefits from the reduced labor cost and increased
 efficiency of the advising offices.
 
 \section{Problem Description} To make our examples concrete we will focus on the
-classes offered within the Math department, although our algorithm and model can
-be extended to include over departments. 
+classes offered within the Math department; however, our algorithm and model can
+be extended to include other departments. 
 
-Every quarter the Math department offers a subset of courses from all of the
-available courses in the department. Each course is offered during a certain set
-time periods. There are inevitably time conflicts between courses that a student
+Every quarter the Mathematics department offers a selection of courses; not every
+course is offered every quarter. Each course is offered during a certain set
+time periods. There are inevitable time conflicts among courses that a student
 could take because there are far more courses offered than time periods during
-the regular five-day week  To graduate with a B.S. in Mathematics there are
-certain classes that are required and then there are elective requirements too.
+the regular five-day week. Graduating with a B.S. in Mathematics requires
+specific classes in addition to elective requirements.
 Additionally many classes have prerequisites which much be satisfied before they
 can be taken. In the case of math courses, there can be multiple, exclusive
 prerequisite sets that independently satisfy the requirements for a class.
@@ -128,7 +130,7 @@ a course's prerequisites prior to taking that course \end{enumerate}
 University of Washington. A course is identified by its department name and
 number, for example {\it MATH309}. Each course is also worth a specific amount
 of credits. \item We refer to a specific instance of a course as a {\it course
-offering}. Each course offering additionally has associated with it the time of
+offering}. Additionally, each course offering  has associated with it the time of
 the day at which the course meets, the quarter it is being offered, and the
 section number of the offering. Throughout this paper, we will refer to quarters
 by their time schedule abbreviates: {\it F} for Fall Quarter, {\it W} for Winter
@@ -150,9 +152,9 @@ of courses a student can take in quarter i. \end{itemize}
 prerequisites using a directed acyclic graph. Each node was a course, and edges
 existed between nodes $i$ and $j$ if and only if $i$ was a prerequisite for $j$.
 The DAG relationship works well when courses have single requirements. It
-becomes difficult, however, to track whether requires are fulfilled with courses
+becomes difficult, however, to track whether requirements are fulfilled with courses
 that have multiple prerequisites, or worse courses that have alternative
-prerequisites. We decided that it was would be feasible to model prerequisites
+prerequisites. We decided that it would be feasible to model prerequisites
 using a graph.
 \begin{figure} [ht] \begin{center}
 \includegraphics[scale=0.4]{prereq_logic_example} \end{center}
@@ -203,7 +205,7 @@ time horizon on the problem until they had a solution to the entire problem.
 \section{Picking Classes Per Quarter} Since determining an entire schedule at
 once is intractable we adapted the rolling horizons approach which uses
 a heuristic to pick the best possible schedule for a quarter. With a good
-heuristic we will be able to chose classes that lead to a minimized graduation
+heuristic we will be able to choose classes that lead to a minimized graduation
 time. Since we cannot analytically determine graduation time based on classes
 chosen in a single quarter, our heuristic tries to give high value to classes
 that would delay graduation is taken later rather than sooner. 
