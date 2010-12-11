@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """main module, does the file io reading in the quarterly class information
 and prerequisite information"""
 
@@ -110,7 +111,7 @@ def main():
         # read file in using cvs reader
         # assume the file has a header which names the field names for each column
         # name,sln,section,days,time_begin,time_end
-        reader = csv.DictReader(files[qtr],newline='')
+        reader = csv.DictReader(files[qtr])
         for row in reader:
             # each row is a dictionary with the above keys (provided the file was formatted
             # correctly
@@ -118,7 +119,6 @@ def main():
             t_end = datetime.time(row['time_end'][0:2],row['time_end'][2:4])
             result = re.match("(M)(T)(W)(Th)(F)",row['days'])
             days = set(result.groups)
-            if (
             c = Class.Class((t_begin,t_end),int(row['credits']),i,row['name'],
                 row['section'],int(row['sln']))
             try:
