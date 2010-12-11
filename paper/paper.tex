@@ -100,9 +100,9 @@ This will also help students save money, as they will be in school for fewer
 quarters. The university also benefits from the reduced labor cost and increased
 efficiency of the advising offices.
 
-\section{Problem Description} To make our examples concrete we will focus on the
-classes offered within the Math department, although our algorithm and model can
-be extended to include over departments. 
+\section{Problem Description} \label{pdesc} To make our examples concrete we
+will focus on the classes offered within the Math department, although our
+algorithm and model can be extended to include over departments. 
 
 Every quarter the Math department offers a subset of courses from all of the
 available courses in the department. Each course is offered during a certain set
@@ -123,17 +123,51 @@ once \item Never exceeding a preset number of credit hours per quarter \item
 Never taking more than one class at a given time \item Always satisfying
 a course's prerequisites prior to taking that course \end{enumerate}
 
+\section{Model Elements} The solve the problem outlined in section \ref{pdesc}
+we formalized elements of the academic quarter. Some of the hardest elements to
+model were representing prerequisites for a course, how to handle quiz sections,
+and simply choosing appropriate sets to contain information about a student's
+academic progress.
+
+\subsection{Classes and Quiz Sections} Another modeling difficulty that we
+initially ignore was how to represent quiz sections for a class. Each time
+a course is offered is may be offered as multiple classes. For instance, during
+$F$ $MATH307$ is offered as 7 different sections all teaching the same material
+during different time periods. Within a specific quarter schedule line number,
+SLNs uniquely identify courses allowing us to differentiate between classes with
+the same name. Continuing the above example, the SLNs of the 7 $MATH307$
+instances may be 15432, 15433, 15434...
+
+Our peer review team commented that we had not accounted for courses that
+required concurrent quiz sections. First we note that the quiz sections for
+a class never occur during the same time periods as the class itself (otherwise
+students would not be able to attend the quiz section). Quiz sections also have
+unique SLNs, to include a required quiz section we include the quiz section SLN
+with the SLN for the associated class. Finally, courses such at $MATH125$ can
+have multiple sections, each with several quiz sections of which only one need
+be taken. We found the easiest way to represent this situation was to iterate
+over the quiz sections for each class section and generate a puesdo class for
+each pair of class section and quiz section that occured during the time periods
+for both quiz and main sections. Fig. \ref{quizzes} contains one section
+$MATH125$ being split across 3 quiz sections.
+\begin{figure} [ht] 
+    \begin{center}
+        \includegraphics[scale=0.4]{quiz_sections} 
+    \end{center}
+    \caption{Splitting up MATH125} 
+    \label{quizzes} 
+\end{figure}
+
 \subsection{Definitions} We will now formalize some terms used in our paper.
 \begin{itemize} \item A {\it course} refers to any course offered by the
 University of Washington. A course is identified by its department name and
 number, for example {\it MATH309}. Each course is also worth a specific amount
-of credits. \item We refer to a specific instance of a course as a {\it course
-offering}. Each course offering additionally has associated with it the time of
-the day at which the course meets, the quarter it is being offered, and the
-section number of the offering. Throughout this paper, we will refer to quarters
-by their time schedule abbreviates: {\it F} for Fall Quarter, {\it W} for Winter
-Quarter, {\it Sp} for Spring Quarter, and {\it S} for Summer Quarter.
-\end{itemize}
+of credits. \item We refer to a specific instance of a course as a {\it class}.
+Each class is has associated with it the time of the day at which it  meets, the
+quarter it is being offered, and the section number of the offering.  Throughout
+this paper, we will refer to quarters by their time schedule abbreviates: {\it
+F} for Fall Quarter, {\it W} for Winter Quarter, {\it Sp} for Spring Quarter,
+and {\it S} for Summer Quarter. \end{itemize}
 
 Additionally: \begin{itemize} \item Let $S$ be the set of courses required to
 graduate. $S$ can be thought of as our goal state, and can also contain elective
@@ -154,9 +188,13 @@ becomes difficult, however, to track whether requires are fulfilled with courses
 that have multiple prerequisites, or worse courses that have alternative
 prerequisites. We decided that it was would be feasible to model prerequisites
 using a graph.
-\begin{figure} [ht] \begin{center}
-\includegraphics[scale=0.4]{prereq_logic_example} \end{center}
-\caption{Evaluation of a rule} \label{logic_ex} \end{figure}
+\begin{figure} [ht] 
+    \begin{center}
+        \includegraphics[scale=0.4]{prereq_logic_example} 
+    \end{center}
+    \caption{Evaluation of a rule} 
+    \label{logic_ex} 
+\end{figure}
 
 To represent alternative and multiple prerequisites we introduced a set of logic
 rules for each course. The prerequisites for each course are expressed as
@@ -175,7 +213,7 @@ $MATH300$ have been taken, then those literals in the rule for $MATH327$
 evaluate to true and therefore the entire rule is true.  Since the entire rule
 is true, the student can take $MATH327$.
 
-\subsection{Initial Model and Tractability} With a static schedule it would be
+\section{Tractability} With a static schedule it would be
 possible to plan an entire set of quarter by quarter schedules from start to
 finish. Unfortunately we have neither the computational resources nor the luxury
 of a static schedule. Some classes are offered every quarter others such as
@@ -229,14 +267,14 @@ classes that we can take given the current quarter and the classes we have
 already taken.  \item We now construct a conflict graph, $G_{conflict}$, where
 every course offering in $L$ is a node, and there is an edge between two nodes
 $i$ and $j$ if and only if the time of course offering $i$ overlaps the time of
-course offering $j$.  \end{enumerate}
-
-\begin{figure} [ht]
+course offering $j$. An example conflict graph for one time period is given in
+Fig. \ref{conflictg}. \end{enumerate} 
+\begin{figure} [ht] 
     \begin{center}
-        \includegraphics[scale=0.35]{conflict_graph_ex}
-    \end{center}
-    \caption{A Conflict Graph}
-    \label{conflictg}
+        \includegraphics[scale=0.35]{conflict_graph_ex} 
+    \end{center} 
+    \caption{A Conflict Graph} 
+    \label{conflictg} 
 \end{figure}
 
 \subsubsection{Analysis} The selection procedure involves a lot of set queries
