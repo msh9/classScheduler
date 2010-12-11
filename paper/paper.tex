@@ -65,8 +65,8 @@ however, many students fail to complete it in this time frame. One
 factor contributing to this is poor planning when registering for classes.
 We present an algorithm to assist students in constructing a schedule 
 that works towards completing a degree in the shortest amount of time 
-possible. The algorithm presented uses heurisitics to attempt to pick the best
-class set each quarter, working towards a complete schedule quartery by 
+possible. The algorithm presented uses heuristics to attempt to pick the best
+class set each quarter, working towards a complete schedule quarterly by 
 quarter.}
 \pagebreak
 
@@ -102,7 +102,7 @@ This will also help students save money, as they will be in school for fewer
 quarters. The university also benefits from the reduced labor cost and increased
 efficiency of the advising offices.
 
-\section{Problem Description} \label{psdesc} To make our examples concrete we will focus on the
+\section{Problem Description} \label{pdesc} To make our examples concrete we will focus on the
 classes offered within the Math department; however, our algorithm and model can
 be extended to include other departments. 
 
@@ -131,14 +131,14 @@ model were representing prerequisites for a course, how to handle quiz sections,
 and simply choosing appropriate sets to contain information about a student's
 academic progress.
 
-\subsection{Classes and Quiz Sections} Another modeling difficulty that we
-initially ignore was how to represent quiz sections for a class. Each time
-a course is offered is may be offered as multiple classes. For instance, during
-$F$ $MATH307$ is offered as 7 different sections all teaching the same material
-during different time periods. Within a specific quarter schedule line number,
-SLNs uniquely identify courses allowing us to differentiate between classes with
-the same name. Continuing the above example, the SLNs of the 7 $MATH307$
-instances may be 15432, 15433, 15434...
+\subsection{Classes and Quiz Sections} \label{classDefs} Another modeling
+difficulty that we initially ignore was how to represent quiz sections for
+a class. Each time a course is offered is may be offered as multiple classes.
+For instance, during $F$ $MATH307$ is offered as 7 different sections all
+teaching the same material during different time periods. Within a specific
+quarter schedule line number, SLNs uniquely identify courses allowing us to
+differentiate between classes with the same name. Continuing the above example,
+the SLNs of the 7 $MATH307$ instances may be 15432, 15433, 15434...
 
 Our peer review team commented that we had not accounted for courses that
 required concurrent quiz sections. First we note that the quiz sections for
@@ -148,8 +148,8 @@ unique SLNs, to include a required quiz section we include the quiz section SLN
 with the SLN for the associated class. Finally, courses such at $MATH125$ can
 have multiple sections, each with several quiz sections of which only one need
 be taken. We found the easiest way to represent this situation was to iterate
-over the quiz sections for each class section and generate a puesdo class for
-each pair of class section and quiz section that occured during the time periods
+over the quiz sections for each class section and generate a pseudo class for
+each pair of class section and quiz section that occurred during the time periods
 for both quiz and main sections. Fig. \ref{quizzes} contains one section
 $MATH125$ being split across 3 quiz sections.
 \begin{figure} [ht] 
@@ -326,7 +326,6 @@ course is offered. For example, if we are deciding between two course offering
 that are identical except one is offered once a year, and the other is offered
 three times a year, we want to take the course only offered once a year, as we
 won't have the opportunity to take it for another entire year.
-
 \begin{figure} [ht]
     \begin{center}
         \includegraphics[scale=0.35]{more_prereq_tree}
@@ -366,7 +365,8 @@ selection as a binary integer programming problem in spirit of the methods
 presented by Dinkel et al \cite{dinkel:scheduling}. and Pritsker et al
 \cite{prisker:informs}. A second approach developed by Yamada et al
 \cite{yamada:heuristic} and Pferschy et al \cite{pferschy:kcg} is presented for
-dealing with very large class choices where binary LP would be difficult solve.
+dealing with very large class choices where a binary LP would be difficult
+solve.
 
 \subsubsection{Formulation as Binary Integer Program} We can now formulate
 a binary linear programming problem. Before stating the linear
@@ -384,49 +384,55 @@ We now state our problem as follows:
 Maximize: 
 \begin{equation}
     \text{Value of Quarter} = \sum_{i=1}^m Value(c_i) * X_i
-    \label{qtr_val}
+    \label{qtrval}
 \end{equation}
 Subject To:
 \begin{equation}
     \sum_{i=1}^m Weight(c_i) * X_i \leq l, 
-    \label{weight_lim}
+    \label{weightlim}
 \end{equation}
 
 \begin{equation}
     \forall t \in O,X_i+X_j \leq 1, \forall \text{ connected pairs } (X_i,X_j) \in t
-    \label{time_con}
+    \label{timecon}
 \end{equation}
 
 \begin{equation}
    X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{and} X_j \text{ are offerings of
    the same course}
-    \label{course_con}
+    \label{coursecon}
 \end{equation}
 
-The linear program
-can be interpreted as follows: \begin{itemize} \item The value of a quarter is
-the total number of courses taken that quarter.  \item In each quarter, the
-total number of credits cannot exceed the specified limit.  \item Only one
-course can be taken in one particular time slot \item A course can only be taken
-or not taken. In other words, decision variables are binary.  \item Each
-non-zero decision variable in the optimal solution represents a class we will
-take.  \end{itemize}
+The linear program can be interpreted as follows: \begin{itemize} \item
+Eqn.~\ref{qtrval}: The value of a quarter is the total number of courses taken
+that quarter. We want to maximize this value, to maximize the number of high
+value classes we take each quarter. \item Eqn.~\ref{weightlim}: In each quarter,
+the total number of credits cannot exceed the specified limit. $Weight(c_i)$
+represents a short hand way of indicating the number of credits hours a class
+takes. \item Eqn.~\ref{timecon}: Only one course can be taken in one particular
+time slot, this is where $G_{conflict}$ is used. Without the prebuilt conflict
+graph it would be difficult to build the set of constraints based on equation
+number~ref{timecon}. \item Eqn.~\ref{coursecon}: Previously in
+section~\ref{classDefs} we noted that in many cases a course is offered in
+multiple sections during the same quarter. A student can only take one offering
+of a course, this constraint eqn must be built for every class-quiz section
+combination which represent that same course.\end{itemize}
 
-Each of the equations based on eqn.~\ref{time_con} ensure that we only take one class per 
-time period per day. Also this linear program is ‘nice’ in that it always has 
-feasible origin (don’t take any classes), and that the simplest formulation 
-is already in standard form.
+Solving this LP will yield a set $X_i$s that are 1. We represent "taking" these
+classes by moving them into the set $T$. Then we advance the current quarter,
+rolling the horizon back and run the algorithm again, repeating as necessary
+till we have a complete schedule.
 
-As noted in the reference literature this is actually a NP-hard
-problem as described \cite{pferschy:kcg}. For versions of this problem in the
-low hundreds of variables, however it is still possible to solve using modern LP
-solving software \cite{yamada:heuristic}. In our case, just solving for the
-optimal classes for a single major fits well into the scope of a few hundred (or
-even just tens of) variables. For multiple majors or to consider class selection
-for distribution and elective requirements, however the number of classes
-balloons significantly and the KCG problem becomes much harder. For this version
-of the problem we suggest the techniques used by Yamada et al
-\cite{yamada:heuristic}, which we briefly outline below.
+\subsection{Alternative Formulation} As noted in the reference literature this
+is actually a NP-hard problem as described \cite{pferschy:kcg}.  For versions of
+this problem in the low hundreds of variables, however it is still possible to
+solve using modern LP solving software \cite{yamada:heuristic}. In our case,
+just solving for the optimal classes for a single major fits well into the scope
+of a few hundred (or even just tens of) variables. For multiple majors or to
+consider class selection for distribution and elective requirements, however the
+number of classes balloons significantly and the KCG problem becomes much
+harder. For this version of the problem we suggest the techniques used by Yamada
+et al \cite{yamada:heuristic}, which we briefly outline below.
 
 For the rest of this section we consider an alternative formulation of class
 selection as a knapsack problem with conflict graphs and suggest the use
