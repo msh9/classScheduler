@@ -33,9 +33,8 @@
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % Set AFTER setting up the page geometry
 \pagestyle{fancy} % options: empty , plain , fancy
-\renewcommand{\headrulewidth}{0pt} % customise the layout...
-\lhead{}\chead{}\rhead{}
-\lfoot{}\cfoot{\thepage}\rfoot{}
+\renewcommand{\headrulewidth}{0pt} % customise the layout...  
+\lhead{Minimizing Time Required For Graduation}\chead{}\rhead{} \lfoot{}\cfoot{\thepage}\rfoot{}
 
 %%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
@@ -193,10 +192,11 @@ We therefore concluded that it is infeasible to model prerequisites using a grap
 \end{figure}
 
 To represent alternative and multiple prerequisites we introduced a set of logic
-rules for each course.  The set $R$ consists of a prepositional logic statements representing
-the prerequisites of each course.  The literals in each statement are a course.
-For example, the rule associated with $MATH327$ in Figure~\ref{logic_ex} is
-$$ \text{{\it MATH327: (MATH126 AND MATH300) OR MATH136}}.$$
+rules for each course.  The set $R$ consists of a prepositional logic statements
+representing the prerequisites of each course.  The literals in each statement
+are a course.  For example, the rule associated with $MATH327$ in
+Figure~\ref{logic_ex} is $$ \text{{\it MATH327: (MATH126 AND MATH300) OR
+MATH136}}.$$
 
 To determine if a given student is eligible to register for a given class $c$,
 we evaluate the rule for $c$.  Each literal in the statement takes on
@@ -297,15 +297,15 @@ taken.
 
 \subsubsection{Heuristic Value Function} To pick the classes taken in a given quarter,
 we use a heuristic function which assigns
-each class a value.  When constructing the schedule, we pick classes with the highest heuristic value.
-Recall that our goal is to
-minimize the total number of quarters taken (and implicitly, maximize the total
-number of courses taken per quarter).  Therefore, our heuristic function gives higher
-value to class that maximize the number of classes taken in a given quarter and in
-future quarters.  One component to the heuristic function then must be the
-number of dependent courses a given course offering has.  If a course satisfies
-prerequisites, then there are courses that we cannot
-complete without it.  Therefore, we want our heuristic function to favor it.
+each class a value.  When constructing the schedule, we pick classes with the
+highest heuristic value.  Recall that our goal is to minimize the total number
+of quarters taken (and implicitly, maximize the total number of courses taken
+per quarter).  Therefore, our heuristic function gives higher value to classes
+that maximize both the number of classes taken in a given quarter and in future
+quarters.  One component to the heuristic function then must be the number of
+dependent courses a given course offering has.  If a course satisfies
+prerequisites, then there are courses that we cannot complete without it.
+Therefore, we want our heuristic function to favor it.
 
 Additionally, we know that not every course is offered every quarter.  If
 a course is not offered until the following year, we could potentially add an
@@ -346,6 +346,25 @@ With these functions defined, we can now define our heuristic function:
 Where $c$ is a given course offering, $q$ is the current quarter, and $\alpha$,
 $\beta$, and $\gamma$ are real numbers, giving a weight to piece of the
 heuristic.  We determine these scalars experimentally.
+
+\subsubsection{Determining $Dependents(c)$} We briefly address how to determine
+the dependent value of a particular course. Figure~\ref{prereq} indicates the
+method for determining the dependent value of a course; generate the graph of
+prerequisites and then count the number of children in the subtree rooted at
+a particular course node. If this was the only consideration though, we could
+potentially assign a very high value to a course that is not related to
+a student's major becuase that course had a large number of dependents. The
+purpose of our system is to provide schedules that get a student through a major
+as quickly as possible, so we should only value courses that lead to graduation.
+The set $S$ describes the classes a student will need to graduate.
+
+To assign values to courses, we start with the courses in $S$ and work backwards
+using the prerequisite rules in $R$ to determine how to traverse the
+prerequisite DAG. Traversing the graph using this method, we determine the value
+of the course by counting the children in trees rooted at the current node in
+the traversal. By starting with the courses in $S$ we ensure that we only given
+values to courses that we need to take, instead of any courses with a large
+number of dependents.
 
 \subsubsection{Selection Procedure} At this point in the algorithm we know which
 classes are available to a student and the values of the classes.  We present two
@@ -448,10 +467,5 @@ also our total number of choices is in some cases (particular just the classes
 in a particular major) less than 200.  Giving the size and type of data in our
 set the higher conflict rate is less of a concern and Yamada et al’s algorithm
 should still be efficient.
-
-\section{Computational Results} In this section we will outline results obtained
-by running computer simulations of schedule picking.  We will computationally
-examine what parameters in our heuristic function produce the most desirable
-schedules.
 
 \bibliography{paper_references}{} \bibliographystyle{plain} \end{document}
