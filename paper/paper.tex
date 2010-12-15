@@ -178,7 +178,7 @@ of courses a student can take in quarter i.  \end{itemize}
 
 \subsection{Representing Prerequisites} Initially, we represented course
 prerequisites using a directed acyclic graph.  Each node represented a course, and edges
-existed between nodes $i$ and $j$ if and only if $i$ was a prerequisite for $j$.
+exist between nodes $i$ and $j$ if and only if $i$ was a prerequisite for $j$.
 This model works well if each course has only one prerequisite.  However,
 this model fails to represent courses that have multiple prerequisites
 or courses that have alternative prerequisites.  This is the case for some courses.
@@ -220,13 +220,13 @@ enumeration tree nor its depth.  Since we can only determine one quarter in
 advance, this suggests approaching the problem by using heuristics to pick the
 best possible classes each quarter.
 
-Instead of trying to solve the complete problem we chose to use the "rolling
+Instead of trying to solve the complete problem we chose to use the ``rolling
 horizon approach" used by Xiangtong et al \cite{xiangton:informs} when
 scheduling classes for airline pilots.  Xiangtong et al. also could not develop
 an optimal class schedule in one pass, instead they picked optimal classes
 using a heuristic over a well demarcated time period.  Once they had a solution
 to the smaller time period, they increased the size of the time period, or rolled
-the horizon, and used the previously optimal solution to help determine
+the horizon, and used the previous optimal solution to help determine
 a solution to the new larger problem.  The team's algorithm continued rolling the
 time horizon on the problem until they had a solution to the entire problem.
 
@@ -241,6 +241,15 @@ that delay graduation the longest.
 We break our algorithm down into two main phases: determining available course
 offering and selecting specific course offerings.
 
+\subsection{Assumptions} Our method and in particular, our heuristic value
+function assumes continuity over time in how courses are offered. Since we do
+not have perfect schedule information, we don't look into the future, however we
+do assume that future schedules will bare resemblance to past schedules. The
+closer past course offering frequency and times offered is to the current
+schedule the better our predictions will be. We also assume that a student does
+not fail courses and therefore never needs to retake a course, that is once
+a course is entered in the set $T$ it never leaves.
+
 \subsection{Determining Available Course Offerings} We need to select the
 classes we can currently take and then build time conflict graphs.
 We construct the set $L_i$ during this phase of the algorithm.
@@ -252,27 +261,24 @@ $MATH125$.  We then check if $p \in T$.  If $p \in T$, we say $p$ evaluates
 to true; otherwise, $p$ evaluates to false.  Using rules of logic we evaluate
 $r$.  If $r$ is true, we add the course associated with it to $L$.  Once this
 is complete, $L$ will consist of every course a student is eligible to take, based solely
-on satisfied prerequisites.  \item We now prune $L$ by removing all
-courses that are not offered in the current quarter.  $L$ now contains
-only classes that we can take given the current quarter and the classes we have
-already taken.  \item We now construct a conflict graph, $G_{conflict}$, where
-every course offering in $L$ is a node, and there is an edge between two nodes
-$i$ and $j$ if and only if the time of course offering $i$ overlaps the time of
-course offering $j$.  Figure~\ref{conflictg} shows an example conflict graph for
-one time period.  \end{enumerate}
-\begin{figure} [ht] 
-    \begin{center}
-        \includegraphics[scale=0.35]{conflict_graph_ex} 
-    \end{center} 
-    \caption{A Conflict Graph} 
-    \label{conflictg} 
-\end{figure}
+on satisfied prerequisites.  \item We now prune $L$ by removing all courses that
+are not offered in the current quarter, and all courses which the student has
+already taken. Firs we take the set difference $L-T$ and the set difference
+between $L$ again and the input set of courses offered this quarter.  $L$ now
+contains only classes that we can take given the current quarter and the classes
+we have already taken.  \item We now construct a conflict graph, $G_{conflict}$,
+where every course offering in $L$ is a node, and there is an edge between two
+nodes $i$ and $j$ if and only if the time of course offering $i$ overlaps the
+time of course offering $j$.  Figure~\ref{conflictg} shows an example conflict
+graph for one time period.  \end{enumerate} \begin{figure} [ht] \begin{center}
+\includegraphics[scale=0.35]{conflict_graph_ex} \end{center} \caption{A Conflict
+Graph} \label{conflictg} \end{figure}
 
 \subsubsection{Analysis} The selection procedure involves a lot of set queries
 and iteration, but in asymptotic running time the algorithm is efficient.
 Let $n$ be the total number of classes ever available to take.
-In the worst case, $P$ has a complex rule for all $n$
-courses, and checking each rule in $P$ is linear in the number of propositions.
+In the worst case, $R$ has a complex rule for all $n$
+courses, and checking each rule in $R$ is linear in the number of propositions.
 However, we know {\it a priori} from analysis of our data set that the largest
 rule has twelve propositions, so we can bound the rule check time by a constant,
 $C$, and therefore step one runs in $O(n)$ time.
@@ -311,7 +317,7 @@ Additionally, we know that not every course is offered every quarter.  If
 a course is not offered until the following year, we could potentially add an
 entire year to the schedule.  This is a situation we hope to avoid.  Our heuristic
 function must therefore consider how often and how far in the future a given
-course is offered.  For example, if we are deciding between two course offering
+course is offered.  For example, if we are deciding between two classes
 that are identical except one is offered once a year, and the other is offered
 three times a year, we want to take the course only offered once a year, as we
 won't have the opportunity to take it for another entire year.
@@ -323,14 +329,14 @@ won't have the opportunity to take it for another entire year.
     \label{prereq}
 \end{figure}
 
-We these considerations in mind, we begin to develop our heuristic function.  In
+In
 order to define our heuristic function, we must first define some auxiliary
-functions on course offering.  \begin{itemize} \item Let $TimeFromNow(c, q)$ be
-difference in quarters between the current quarter, $q$, and the next quarter
-a given course offering, $c$, is offered.  As there are four quarters, the range
+functions on course offerings.  \begin{itemize} \item Let $TimeFromNow(c, q)$ be
+difference in quarters between the current quarter, $q$, and the \emph{last} quarter
+a given course, $c$, was offered.  As there are four quarters, the range
 of this function is $\{0, 1, 2, 3\}$.  \item Let $Quarters(c)$ be the number of
 quarters per year a given course, $c$, is offered.  As there are four quarters,
-the range of this function is $\{0, 1, 2, 3, 4\}$.  \item Let $Dependents(c)$ be
+the range of this function is $\{0, 1, 2, 3\}$.  \item Let $Dependents(c)$ be
 the number of course that either directly or indirectly require a given course,
 $c$.  In Figure~\ref{prereq}, $Dependents(MATH125)$ = 6 while
 $Dependents(MATH307)$ = 1 \end{itemize}
@@ -345,7 +351,7 @@ With these functions defined, we can now define our heuristic function:
 
 Where $c$ is a given course offering, $q$ is the current quarter, and $\alpha$,
 $\beta$, and $\gamma$ are real numbers, giving a weight to piece of the
-heuristic.  We determine these scalars experimentally.
+heuristic. Determining the best weights should be done experimentally.
 
 \subsubsection{Determining $Dependents(c)$} We briefly address how to determine
 the dependent value of a particular course. Figure~\ref{prereq} indicates the
@@ -353,7 +359,7 @@ method for determining the dependent value of a course; generate the graph of
 prerequisites and then count the number of children in the subtree rooted at
 a particular course node. If this was the only consideration though, we could
 potentially assign a very high value to a course that is not related to
-a student's major becuase that course had a large number of dependents. The
+a student's major because that course had a large number of dependents. The
 purpose of our system is to provide schedules that get a student through a major
 as quickly as possible, so we should only value courses that lead to graduation.
 The set $S$ describes the classes a student will need to graduate.
@@ -361,7 +367,7 @@ The set $S$ describes the classes a student will need to graduate.
 To assign values to courses, we start with the courses in $S$ and work backwards
 using the prerequisite rules in $R$ to determine how to traverse the
 prerequisite DAG. Traversing the graph using this method, we determine the value
-of the course by counting the children in trees rooted at the current node in
+of the course by counting the children in the tree rooted at the current node in
 the traversal. By starting with the courses in $S$ we ensure that we only given
 values to courses that we need to take, instead of any courses with a large
 number of dependents.
@@ -405,7 +411,7 @@ Subject To:
 \end{equation}
 
 \begin{equation}
-   X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{and} X_j \text{ are offerings of
+   X_i + X_j \leq 1, \forall \text{ pairs } (X_i,X_j) \text{ where } X_i \text{ and } X_j \text{ are offerings of
    the same course}
     \label{coursecon}
 \end{equation}
@@ -417,7 +423,7 @@ value classes we take each quarter.  \item Eqn.~\ref{weightlim}: In each quarter
 the total number of credits cannot exceed the specified limit.  $Weight(c_i)$
 represents a short hand way of indicating the number of credits hours a class
 takes.  \item Eqn.~\ref{timecon}: A student can take only one class in one particular
-time slot.  Recall that we use $G_{conflict}$ to determine time conflicts.
+time slot, $t$  Recall that we use $G_{conflict}$ to determine time conflicts.
 \item Eqn.~\ref{coursecon}: Previously in
 section~\ref{classDefs} we noted that it is possible for a course to have multiple
 offerings during the same quarter.  A student can only take one offering
